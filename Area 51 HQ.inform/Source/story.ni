@@ -1,4 +1,8 @@
-"Area 51" by Eric Tam
+"Area 51 HQ" by Eric Tam
+
+
+
+When play begins: say "You wake up in the base of a military lab. Can't believe you're alive, huh? From a sign outside you realize you're in Area 51. You feel as if 4 small parts of your body has been extracted right out of you but you don't know what's happened. You don't know what's going on. But what you do know is that you need to replemish what you've lost and get the hell out of this base. The sign outside Area 51 was already intimidating. Now you're in the base of the operation. The people here will do anything to kill you. It seems that everybody's out and the security cameras are off… for now. No time to poop your pants. Get out of here."
 
 The Description of the player is "You're a normal tan-skinned person, except you're wearing hospital clothes. There's a huge cut in your arm. Gross. Your fingerprints don't look like the fingerprints you always had though..."
 
@@ -7,6 +11,8 @@ Understand "hit" and "kill"  as attacking.
 Understand "mix" as combining it with.
 
 Understand "inject" as putting it on.
+
+Understand "pour Delta Chemical into" as putting it on.
 
 Understand "Syringe" as Injection Syringe.
 	 
@@ -45,18 +51,15 @@ Instead of combining Alpha Chemical with Beta Chemical:
 	remove Beta Chemical from play;
 	move Delta Chemical to player.
 	
-Instead of pouring Delta Chemical into Injection Syringe:
+Instead of putting Delta Chemical on Injection Syringe:
 	say "You put the brightly orange chemical into the syringe. It's now ready for injection."
 
-Instead of injecting Syringe into player:
+Instead of putting Syringe on player:
 	say "You inject yourself with the Delta Chemical. You suddenly feel human and your fingerprints are restored."
 	remove Delta Chemical and Syringe from play;
 	give Restored Fingerprints to player.
 	
 Restored Fingerprints is a thing. The description is "Your fingerprints have been restored to normal."
-
-
-When play begins: say "You wake up in the base of a military lab. Can't believe you're alive, huh? From a sign outside you realize you're in Area 51. You feel as if 4 small parts of your body has been extracted right out of you but you don't know what's happened. You don't know what's going on. But what you do know is that you need to replemish what you've lost and get the hell out of this base. The sign outside Area 51 was already intimidating. Now you're in the base of the operation. The people here will do anything to kill you. It seems that everybody's out and the security cameras are off… for now. No time to poop your pants. Get out of here."
 
 The Center of The Military Lab is a room. "You're in the center of the Military Lab. It's quite the large room. You wonder what went on here. Where should you go now? You may go in all four directions: N, S, W, and E."
 
@@ -156,9 +159,9 @@ West Room is a room. It is west of the Creature Testing Facility. "You're in the
 
 KLAW is a male animal in the West Room. KLAW holds the Blue Chemical. The description of KLAW is "You've only read about this creature in books. His name is KLAW. He seems to want to kill you. Are you going to run or fight?"
 
-Instead of attacking KLAW with Uranium Rifle first: say "You shoot KLAW in the stomach, causing his mouth to open. He releases a giant scream: a scream equal to that of what you heard when you came in the room."
+Instead of attacking KLAW with Uranium Rifle: say "You shoot KLAW in the stomach, causing his mouth to open. He releases a giant scream: a scream equal to that of what you heard when you came in the room."
 
-Instead of attacking KLAW with Uranium Grenade second: say "The great monster falls from choking so much. The uranium bomb explodes."
+Instead of attacking KLAW with Uranium Grenade: say "The great monster falls from choking so much. The uranium bomb explodes."
 [kill KLAW.]
 
 Instead of attacking KLAW with Uranium Grenade first, say "The Uranium Grenade explodes, but it doesn't affect KLAW. He comes at you and kills you."
