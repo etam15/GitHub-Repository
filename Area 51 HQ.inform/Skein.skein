@@ -22,6 +22,74 @@ You can see Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tr
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">NO</temporary>
+    <temporary score="7">NO</temporary>
+    <children>
+      <child nodeId="node-0xf14edf0" />
+      <child nodeId="node-0x6f1a3b0" />
+      <child nodeId="node-0xb4bb420" />
+    </children>
+  </item>
+  <item nodeId="node-0xb4bb420">
+    <command xml:space="preserve">unlock titanium box</command>
+    <result xml:space="preserve">What do you want to unlock Titanium Box with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0xf152e90" />
+    </children>
+  </item>
+  <item nodeId="node-0xf152e90">
+    <command xml:space="preserve">unlock titanium box with titanium keu</command>
+    <result xml:space="preserve">I only understood you as far as wanting to unlock Titanium Box with Titanium Box.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0xf150360" />
+    </children>
+  </item>
+  <item nodeId="node-0xf150360">
+    <command xml:space="preserve">unlock titanium box with titanium key</command>
+    <result xml:space="preserve">I only understood you as far as wanting to unlock Titanium Box with Titanium Box.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x6f1a3b0">
+    <command xml:space="preserve">combine blue chemical with red chemical</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0x7096760" />
+    </children>
+  </item>
+  <item nodeId="node-0x7096760">
+    <command xml:space="preserve">take titanium box</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0xf14edf0">
+    <command xml:space="preserve">open titanium box</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
   </item>
 </Skein>

@@ -2,7 +2,7 @@
 
 When play begins: say "You wake up in the base of a military lab. Can't believe you're alive, huh? From a sign outside you realize you're in Area 51. You feel as if 4 small parts of your body has been extracted right out of you but you don't know what's happened. You don't know what's going on. But what you do know is that you need to replemish what you've lost and get the hell out of this base. The sign outside Area 51 was already intimidating. Now you're in the base of the operation. The people here will do anything to kill you. It seems that everybody's out and the security cameras are off… for now. No time to poop your pants. Get out of here."
 
-The Description of the player is "You're a normal tan-skinned person, except you're wearing hospital clothes. There's a huge cut in your arm. Gross. Your fingerprints don't look like the fingerprints you always had though..."
+The Description of the player is "You're a normal tan-skinned person (5'10, 180 lbs), wearing clothes that you don't feel like you normally wear. They must have given you them. The pockets on these are rather large. Maybe you could store a lot of things inside. There's a huge cut in your arm. Gross."
 
 Understand "hit" and "kill"  as attacking. 
 
@@ -153,7 +153,9 @@ East Room is a room. It is east of the Nuclear Machinery. "You're in the the Eas
 
 The description of the yellow chemical is "The yellow chemical. Believe it's time to mix this with the green?"
 
-Robot 899 is a female animal in the East Room. Robot 899 holds the yellow chemical. The description of Robot 899 is "A Robot made of aluminum that is wearing a lab coat. Her body is like a human being's body. She's asking for a code. What code are you going to give her?"
+The Titanium Key unlocks the Titanium Box. The description is "A key made of titanium. It feels like a very durable metal key."
+
+Robot 899 is a female animal in the East Room. Robot 899 holds the yellow chemical. Robot 899 holds the titanium key. The description of Robot 899 is "A Robot made of aluminum that is wearing a lab coat. Her body is like a human being's body. She's asking for a code. What code are you going to give her?"
 
 Instead of taking yellow chemical:
 	say "Robot 899 holds the tube containing the yellow chemical with strong force. You try to grab it. The Robot does not budge."
@@ -161,6 +163,7 @@ Instead of taking yellow chemical:
 Instead of giving Code 532 to Robot 899:
 	say "Robot 899 smiles and gives you a high five."
 	[move Yellow Chemical To Player.]
+	[move Titanium Key to player.]
 	
 After attacking Robot 899 for the first time:
 	say "Robot 899 looks at you with a slightly angry face. Don't attack her."
