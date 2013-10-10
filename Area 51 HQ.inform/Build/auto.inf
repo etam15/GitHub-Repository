@@ -29,7 +29,7 @@ Array UUID_ARRAY string "UUID://A339A533-FE96-4DEA-944D-B132AB2F4B99//";
 Constant Story "Area 51 HQ";
 Constant Headline "An Interactive Fiction";
 Constant Story_Author SC_2;
-Serial "131007";
+Serial "131009";
 
 Default Story 0;
 Default Headline 0;

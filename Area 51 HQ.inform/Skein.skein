@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1bb5070" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x18f3dd0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1bb5070" />
-  <item nodeId="node-0x1bb5070">
+  <activeNode nodeId="node-0x18f3dd0" />
+  <item nodeId="node-0x18f3dd0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 
-You wake up in the base of a military lab. Can&apos;t believe you&apos;re alive, huh? From a sign outside you realize you&apos;re in Area 51. You feel as if 4 small parts of your body has been extracted right out of you but you don&apos;t know what&apos;s happened. You don&apos;t know what&apos;s going on. But what you do know is that you need to replemish what you&apos;ve lost and get the hell out of this base. The sign outside Area 51 was already intimidating. Now you&apos;re in the base of the operation. The people here will do anything to kill you. It seems that everybody&apos;s out and the security cameras are off… for now. No time to poop your pants. Get out of here.
+You wake up in the base of a military lab. Can&apos;t believe you&apos;re alive, huh? From a sign outside you realize you&apos;re in Area 51. You feel as if 4 small parts of your body has been extracted right out of you but you don&apos;t know what&apos;s happened. You don&apos;t know what&apos;s going on. But what you do know is that you need to replemish what you&apos;ve lost and get the hell out of this base. The sign outside Area 51 was already intimidating. Now you&apos;re in the base of the operation. The people here will do anything to kill you. It seems that everybody&apos;s out and the security cameras are off… for now. No time to poop your pants. Get out of here.ev
 
 Area 51 HQ
 An Interactive Fiction by Eric Tam
@@ -24,12 +24,12 @@ You can see Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tr
     <changed>NO</changed>
     <temporary score="7">NO</temporary>
     <children>
-      <child nodeId="node-0xf14edf0" />
-      <child nodeId="node-0x6f1a3b0" />
-      <child nodeId="node-0xb4bb420" />
+      <child nodeId="node-0x18f4150" />
+      <child nodeId="node-0x18f4070" />
+      <child nodeId="node-0x18f3d30" />
     </children>
   </item>
-  <item nodeId="node-0xb4bb420">
+  <item nodeId="node-0x18f3d30">
     <command xml:space="preserve">unlock titanium box</command>
     <result xml:space="preserve">What do you want to unlock Titanium Box with?
 
@@ -38,10 +38,10 @@ You can see Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tr
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0xf152e90" />
+      <child nodeId="node-0x18f3f50" />
     </children>
   </item>
-  <item nodeId="node-0xf152e90">
+  <item nodeId="node-0x18f3f50">
     <command xml:space="preserve">unlock titanium box with titanium keu</command>
     <result xml:space="preserve">I only understood you as far as wanting to unlock Titanium Box with Titanium Box.
 
@@ -50,10 +50,10 @@ You can see Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tr
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0xf150360" />
+      <child nodeId="node-0x18f3fc0" />
     </children>
   </item>
-  <item nodeId="node-0xf150360">
+  <item nodeId="node-0x18f3fc0">
     <command xml:space="preserve">unlock titanium box with titanium key</command>
     <result xml:space="preserve">I only understood you as far as wanting to unlock Titanium Box with Titanium Box.
 
@@ -62,7 +62,7 @@ You can see Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tr
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
-  <item nodeId="node-0x6f1a3b0">
+  <item nodeId="node-0x18f4070">
     <command xml:space="preserve">combine blue chemical with red chemical</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -71,10 +71,10 @@ You can see Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tr
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
     <children>
-      <child nodeId="node-0x7096760" />
+      <child nodeId="node-0x18f40e0" />
     </children>
   </item>
-  <item nodeId="node-0x7096760">
+  <item nodeId="node-0x18f40e0">
     <command xml:space="preserve">take titanium box</command>
     <result xml:space="preserve">Taken.
 
@@ -83,7 +83,7 @@ You can see Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tr
     <changed>YES</changed>
     <temporary score="2">YES</temporary>
   </item>
-  <item nodeId="node-0xf14edf0">
+  <item nodeId="node-0x18f4150">
     <command xml:space="preserve">open titanium box</command>
     <result xml:space="preserve">It seems to be locked.
 
