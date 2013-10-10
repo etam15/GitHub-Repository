@@ -8,26 +8,138 @@
 
 
 
-You wake up in the base of a military lab. Can&apos;t believe you&apos;re alive, huh? From a sign outside you realize you&apos;re in Area 51. You feel as if 4 small parts of your body has been extracted right out of you but you don&apos;t know what&apos;s happened. You don&apos;t know what&apos;s going on. But what you do know is that you need to replemish what you&apos;ve lost and get the hell out of this base. The sign outside Area 51 was already intimidating. Now you&apos;re in the base of the operation. The people here will do anything to kill you. It seems that everybody&apos;s out and the security cameras are off… for now. No time to poop your pants. Get out of here.ev
+You wake up in the base of a military lab. Can&apos;t believe you&apos;re alive, huh? From a sign outside you realize you&apos;re in Area 51. You feel as if 4 small parts of your body has been extracted right out of you but you don&apos;t know what&apos;s happened. You don&apos;t know what&apos;s going on. But what you do know is that you need to replemish what you&apos;ve lost and get the hell out of this base. The sign outside Area 51 was already intimidating. Now you&apos;re in the base of the operation. The people here will do anything to kill you. It seems that everybody&apos;s out and the security cameras are off… for now. No time to poop your pants. Get out of here.
 
 Area 51 HQ
 An Interactive Fiction by Eric Tam
-Release 1 / Serial number 131007 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 131009 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Center of The Military Lab
-You&apos;re in the center of the Military Lab. It&apos;s quite the large room. You wonder what went on here. Where should you go now? You may go in all four directions: N, S, W, and E.
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here. There&apos;s some blood stains along the floor, but nothing like a murder scene. Where should you go now? You may go in all four directions: N, S, W, and E.
 
 You can see Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tray Belt here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="7">NO</temporary>
+    <temporary score="19">NO</temporary>
     <children>
+      <child nodeId="node-0xb55e180" />
       <child nodeId="node-0x18f4150" />
+      <child nodeId="node-0xb56a640" />
+      <child nodeId="node-0x1b8c9d0" />
       <child nodeId="node-0x18f4070" />
+      <child nodeId="node-0xaf05150" />
       <child nodeId="node-0x18f3d30" />
+      <child nodeId="node-0x7c52910" />
+      <child nodeId="node-0xb5216c0" />
     </children>
+  </item>
+  <item nodeId="node-0xb5216c0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Nuclear Machinery
+You&apos;re in the Nuclear Machinery Room. You don&apos;t wanna touch anything. The room is very big and filled with vehicles in a color that is quite unusual.
+
+You can see a Table (on which is a S Key), an Alpha Tank and a Jeep here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0x189f2b0" />
+      <child nodeId="node-0xb57aca0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb57aca0">
+    <command xml:space="preserve">touch alpha tank</command>
+    <result xml:space="preserve">The Tank launches a nuclear forcefield and fires a bullet straight through you. In the afterlife you figure that they had a fingerprint scanner on those vehicles. As they say, no one is allowed on Area 51 unauthorized.
+
+
+
+    *** You have died ***
+
+
+In that game you scored 0 out of a possible 0, in 2 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+  </item>
+  <item nodeId="node-0x189f2b0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">S Key: Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa55800" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa55800">
+    <command xml:space="preserve">x s key</command>
+    <result xml:space="preserve">A basic silvery key is on the ground. It&apos;s labeled S.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+  </item>
+  <item nodeId="node-0x7c52910">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Creature Testing Facility
+You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. Care to go West? Curiousity could kill you.
+
+You can see a W Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0xe9dd190" />
+    </children>
+  </item>
+  <item nodeId="node-0xe9dd190">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the W Door)
+You can&apos;t, since the W Door leads nowhere.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0xe950f80" />
+    </children>
+  </item>
+  <item nodeId="node-0xe950f80">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x7c48fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7c48fd0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can&apos;t, since the W Door leads nowhere.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
   </item>
   <item nodeId="node-0x18f3d30">
     <command xml:space="preserve">unlock titanium box</command>
@@ -62,6 +174,45 @@ You can see Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tr
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
+  <item nodeId="node-0xaf05150">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Nuclear Machinery
+You&apos;re in the Nuclear Machinery Room. You don&apos;t wanna touch anything. The room is very big and filled with vehicles in a color that is quite unusual.
+
+You can see a Table (on which is a S Key), an Alpha Tank and a Jeep here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bb3430" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bb3430">
+    <command xml:space="preserve">x table</command>
+    <result xml:space="preserve">A table that seems like you CAN touch.
+
+On the Table is a S Key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0xb521a60" />
+    </children>
+  </item>
+  <item nodeId="node-0xb521a60">
+    <command xml:space="preserve">touch alpha tank</command>
+    <result xml:space="preserve">The Tank launches a nuclear forcefield and fires a bullet straight through you. In the afterlife you figure that they had a fingerprint scanner on those vehicles. As they say, no one is allowed on Area 51 unauthorized.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+  </item>
   <item nodeId="node-0x18f4070">
     <command xml:space="preserve">combine blue chemical with red chemical</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
@@ -83,9 +234,87 @@ You can see Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tr
     <changed>YES</changed>
     <temporary score="2">YES</temporary>
   </item>
+  <item nodeId="node-0x1b8c9d0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Nuclear Weapons Room
+Goodness. So many weapons. There&apos;s something on the table.
+
+You can see a S Door, an Uranium Rifle and an Uranium Grenade here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0xb5f3040" />
+    </children>
+  </item>
+  <item nodeId="node-0xb5f3040">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Uranium Rifle: Taken.
+Uranium Grenade: Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0xb5976f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb5976f0">
+    <command xml:space="preserve">unlock s door with s key</command>
+    <result xml:space="preserve">I only understood you as far as wanting to unlock the S Door with the S Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+  </item>
+  <item nodeId="node-0xb56a640">
+    <command xml:space="preserve">take green light</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+  </item>
   <item nodeId="node-0x18f4150">
     <command xml:space="preserve">open titanium box</command>
     <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0xb55e180">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Titanium Box: Taken.
+Ice Tongs: Taken.
+Chemical Tray Belt: Taken.
+
+The General of this base sees you and shoots you. End.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0xb5b6ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb5b6ff0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Creature Testing Facility
+You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. Care to go West? Curiousity could kill you.
+
+You can see a W Door here.
+
+The General of this base sees you and shoots you. End.
 
 &gt;</result>
     <played>YES</played>
