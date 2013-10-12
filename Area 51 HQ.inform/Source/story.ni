@@ -87,13 +87,13 @@ The Ice Tongs is a thing in the Center of The Military Lab. The description of t
 
 The Chemical Tray Belt is a thing in the Center of The Military Lab. The description is "A belt that can be used to hold chemicals. It has four glass slots."
 
-Glassware Room is a room. It is north of the Center of The Military Lab. "A room full of glass containers. The room is of a tinted blue. The color illuminates from the lights 20 feet above you. It looks a little messy. Maybe a disagreement went on in here?"
+Glassware Room is a room. It is north of the Center of The Military Lab. "A room full of glass containers. The room is of a tinted blue. The color illuminates from the lights 20 feet above you. It looks a little messy. Maybe a disagreement went on in here? The Center of The Military Lab is back south."
 
 The Test Tube Rack is an enterable supporter in the Glassware Room. The description of the Test Tube Rack is "A test tube rack. It's holding around 50 of these test tubes. The tubes have nothing inside."
 
 The Broken Glass is an enterable supporter in the Glassware Room. The description of the Broken Glass is "Some broken glass. Looks like a broken 500ml beaker. Why didn't they clean it up yet?"
 
-Nuclear Weapons Room is a room. The Nuclear Weapons Room is south of the S Door. "Goodness. So many weapons. There's something on the table."
+Nuclear Weapons Room is a room. The Nuclear Weapons Room is south of the S Door. "Goodness. So many weapons. There's something on the table. The Center of the Military Lab is back north."
 
 The S Door is a door. The S Door is south of the Center Of The Military Lab. It is locked and Lockable. The description of the S Door is "A door labeled S. It seems to be such a strong door. It looks indestructible… like one of those durable metal doors. That's what it is."
 
@@ -101,7 +101,7 @@ The Uranium Rifle is a thing in Nuclear Weapons Room. The description of the Ura
 
 The Uranium Grenade is a thing in Nuclear Weapons room. The description is "It looks like a regular grenade, labeled LOADED WITH URANIUM. BE CAREFUL."
 
-Nuclear Machinery is a room. It is east of the Center of The Military Lab. "You're in the Nuclear Machinery Room. You don't wanna touch anything. The room is very big and filled with vehicles in a color that is quite unusual."
+Nuclear Machinery is a room. It is east of the Center of The Military Lab. "You're in the Nuclear Machinery Room. You don't wanna touch anything. The room is very big and filled with vehicles in a color that is quite unusual. It's also quite cold in here. You hear the sound of an air conditioner from far away but it's still quite loud."
 
 The Table is an enterable supporter in Nuclear Machinery. The description of the Table is "A table that seems like you CAN touch."
 
@@ -134,11 +134,11 @@ Instead of entering Alpha Tank:
 	say "The Tank launches a nuclear forcefield and fires a bullet straight through you. In the afterlife you figure that they had a fingerprint scanner on those vehicles. As they say, no one is allowed on Area 51 unauthorized. "
 
 
-Creature Testing Facility is a room. It is west of the Center of The Military Lab. "You're in the Creature Testing Facility. You know that because there's a sign on the bottom that seems like it was ripped off. There's really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you."
+Creature Testing Facility is a room. It is west of the Center of The Military Lab. "You're in the Creature Testing Facility. You know that because there's a sign on the bottom that seems like it was ripped off. There's really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you. The Military Lab's Center is back east."
 
-North Room is a room. It is north of the Glassware Room. "You've reached the north room. It's covered with titanium walls."
+North Room is a room. It is north of the N Door. "You've reached the north room. It's covered with titanium walls in its 20 feet by 20 feet entirity. The floor is made out of rubber. The Glassware Room is back south."
 
-The N Door is a door. It is south of North Room. The N key unlocks the N Door. The description of the N Door is "A large titanium door. It's truly massive. You bet whatever's behind the door is also massive."
+The N Door is a door. It is north of the Glassware Room. It is locked and lockable. The N key unlocks the N Door. The description of the N Door is "A large titanium door. It's truly massive. You bet whatever's behind the door is also massive."
 
 The Ammo Box is an enterable supporter in the North Room. The description is "A box of ammo. Seems to hold rockets."
 
@@ -187,7 +187,7 @@ After attacking the big safe for the fifth time:
 
 Red Chemical is a thing in Big Safe. The description is "The Red Chemical. That'll be so important."
 
-East Room is a room. It is east of the Nuclear Machinery. "You're in the the East Room. It's colder than usual in here. There's smoke coming from what looks to be a robot. Yeah. There is a big robot holding the yellow chemical, which is what the smoke is coming out of. The walls of the East Room are made of aluminum! Interesting."
+East Room is a room. It is east of the Nuclear Machinery. "You're in the the East Room. It's colder than usual in here. There's smoke coming from what looks to be a robot. Yeah. There is a big robot holding the yellow chemical, which is what the smoke is coming out of. The walls of the East Room are made of aluminum! Interesting. The Nuclear Machinery is back west."
 
 The description of the yellow chemical is "The yellow chemical. Believe it's time to mix this with the green?"
 
@@ -218,7 +218,7 @@ After attacking Robot 899 for the third time:
 	say "Robot 899 gets fed up with you. She takes a deep breath and clenches her hands. She opens her mouth and a gigantic beam goes through your chest.";
 	
 
-South Room is a room. It is south of the Nuclear Weapons Room. "You're in the South Room. You feel radiation emitting from small Alpha Ray Guns in the distance. You can't reach them, but you can sense them. You wonder why there aren't really any things around there. Just two chests standing there."
+South Room is a room. It is south of the Nuclear Weapons Room. "You're in the South Room. You feel radiation emitting from small Alpha Ray Guns in the distance. You can't reach them, but you can sense them. You wonder why there aren't really any things around there. Just two chests standing there. The Nuclear Weapons Room is back north"
 
 The Left Chest is a closed openable container in the South Room. The description of Left Chest is "The left chest of the South Room. It's made out of iron."
 
@@ -229,7 +229,7 @@ The Right Chest is a closed openable container in the South Room. The descriptio
 
 The Code 654 is a thing inside the Right Chest. The Code 654 unlocks the Big Safe. The description of Code 654 is "A code written on a piece of paper. It says 6-5-4."
 
-West Room is a room. It is west of the Creature Testing Facility. "You're in the West Room. It's a little hot in this room. Spiderwebs are encasted along the walls. A gigantic creature stands before you."
+West Room is a room. It is west of the Creature Testing Facility. "You're in the West Room. It's a little hot in this room. Spiderwebs dyed in red are encasted along the walls. A gigantic creature stands before you. The Creature Testing Facility is West of you."
 
 KLAW is a male animal in the West Room. KLAW holds the Blue Chemical. The description of KLAW is "KLAW seems to want to kill you. Are you going to run or fight? You think he'll beat the crap out of you if you use your hands."
 
@@ -252,7 +252,6 @@ If the player is carrying the Uranium Grenade,
 		move the Blue Chemical to player;
 		move the N Key to player;
 	say "You throw a grenade into the open mouth of KLAW. He chokes and explodes. The blue chemical is right there and you take it.".
-	
 
 
 The description of the Blue Chemical is "You have found the blue chemical. Find the others and combine them, two at a time."
