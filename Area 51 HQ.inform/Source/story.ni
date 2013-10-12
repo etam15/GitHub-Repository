@@ -11,7 +11,7 @@ Instead of attacking Alpha Tank, say "Hold your horses. You'll die if you even t
 
 Instead of attacking Jeep, say "Slow down. You'll die if you touch this."
 
-Instead of attacking teleporter, say "That is indestructible."
+Instead of attacking teleporter, say "That is indestructible. And even if it wasn't, why are you attacking it?"
 
 Instead of smelling a room, say "Smells like rusty metal with a hint of deodorant."
 
@@ -21,6 +21,13 @@ Instead of entering Alpha Tank:
 Instead of entering Jeep:
 	say "Slow down. You'll die if you get on this, let alone even touch it."
 
+Instead of touching teleporter, say "You touch the teleporter and the teleporter releases an aura that repels you away with a slap to your hand."
+
+Instead of touching a door, say "These doors feel so cold. So metallic. You knock on it and it just feels so hard. Definitely not something to attack."
+
+Instead of attacking a door, say "What's the whole point of attacking a door? You can't break it, that's for sure."
+
+Instead of touching Big Safe, say "This safe is so smooth! (You tell yourself). "
 
 Understand "tongs" as ice tongs.
 

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1babfa0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x114daf60" />
+  <activeNode nodeId="node-0x1babfa0" />
   <item nodeId="node-0x1babfa0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -22,7 +22,7 @@ You can see a S Door, Titanium Box (closed), a Green Light, an Ice Tongs and a C
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="97">NO</temporary>
+    <temporary score="98">NO</temporary>
     <children>
       <child nodeId="node-0x114cb990" />
       <child nodeId="node-0x1baccb0" />
@@ -30,6 +30,7 @@ You can see a S Door, Titanium Box (closed), a Green Light, an Ice Tongs and a C
       <child nodeId="node-0x114e7050" />
       <child nodeId="node-0x114a21e0" />
       <child nodeId="node-0x1bac930" />
+      <child nodeId="node-0x11473010" />
       <child nodeId="node-0xb1e87b0" />
     </children>
   </item>
@@ -67,6 +68,14 @@ You&apos;re in the Creature Testing Facility. You know that because there&apos;s
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="60">YES</temporary>
+  </item>
+  <item nodeId="node-0x11473010">
+    <command xml:space="preserve">touch s door</command>
+    <result xml:space="preserve">These doors feel so cold. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
   </item>
   <item nodeId="node-0x1bac930">
     <command xml:space="preserve">east</command>
@@ -259,7 +268,6 @@ You can see KLAW and a teleporter here.
       <child nodeId="node-0x1bacbd0" />
       <child nodeId="node-0xa0849b0" />
       <child nodeId="node-0x1be3ce0" />
-      <child nodeId="node-0x1b91390" />
       <child nodeId="node-0x6c99520" />
       <child nodeId="node-0xebdd870" />
     </children>
@@ -327,16 +335,6 @@ You can see a Table (on which is a S Key), an Alpha Tank and a Jeep here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b91390">
-    <command xml:space="preserve">go inside teleporter</command>
-    <result xml:space="preserve">(first opening the teleporter)
-You can&apos;t, since the teleporter leads nowhere.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
   </item>
   <item nodeId="node-0x1be3ce0">
     <command xml:space="preserve">x teleporter</command>
