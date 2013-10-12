@@ -87,15 +87,15 @@ The Ice Tongs is a thing in the Center of The Military Lab. The description of t
 
 The Chemical Tray Belt is a thing in the Center of The Military Lab. The description is "A belt that can be used to hold chemicals. It has four glass slots."
 
-Glassware Room is a room. It is north of the Center of The Military Lab. "A room full of glass containers. The room is of a tinted blue. The color illuminates from the lights 20 feet above you."
+Glassware Room is a room. It is north of the Center of The Military Lab. "A room full of glass containers. The room is of a tinted blue. The color illuminates from the lights 20 feet above you. It looks a little messy. Maybe a disagreement went on in here?"
 
-The Test Rube Rack is an enterable supporter in the Glassware Room. The description of the Test Tube Rack is "A test tube rack. It's holding around 50 of these test tubes. The tubes have nothing inside."
+The Test Tube Rack is an enterable supporter in the Glassware Room. The description of the Test Tube Rack is "A test tube rack. It's holding around 50 of these test tubes. The tubes have nothing inside."
 
 The Broken Glass is an enterable supporter in the Glassware Room. The description of the Broken Glass is "Some broken glass. Looks like a broken 500ml beaker. Why didn't they clean it up yet?"
 
-Nuclear Weapons Room is a room. The Nuclear Weapons Room is south of the Center of The Military Lab. "Goodness. So many weapons. There's something on the table."
+Nuclear Weapons Room is a room. The Nuclear Weapons Room is south of the S Door. "Goodness. So many weapons. There's something on the table."
 
-The S Door is a door. The S Door is north of The Nuclear Weapons Room. It is locked and Lockable. The description of the S Door is "A door labeled S. It seems to be such a strong door. It looks indestructible… like one of those durable metal doors. That's what it is."
+The S Door is a door. The S Door is south of the Center Of The Military Lab. It is locked and Lockable. The description of the S Door is "A door labeled S. It seems to be such a strong door. It looks indestructible… like one of those durable metal doors. That's what it is."
 
 The Uranium Rifle is a thing in Nuclear Weapons Room. The description of the Uranium Rifle is "It looks like an AK-47. On the trigger it says URANIUM WEAPON."
 
@@ -134,11 +134,11 @@ Instead of entering Alpha Tank:
 	say "The Tank launches a nuclear forcefield and fires a bullet straight through you. In the afterlife you figure that they had a fingerprint scanner on those vehicles. As they say, no one is allowed on Area 51 unauthorized. "
 
 
-Creature Testing Facility is a room. It is west of the Center of The Military Lab. "You're in the Creature Testing Facility. You know that because there's a sign on the bottom that seems like it was ripped off. Care to go West? Curiousity could kill you."
+Creature Testing Facility is a room. It is west of the Center of The Military Lab. "You're in the Creature Testing Facility. You know that because there's a sign on the bottom that seems like it was ripped off. There's really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you."
 
 North Room is a room. It is north of the Glassware Room. "You've reached the north room. It's covered with titanium walls."
 
-The N Door is a door. It is south of North Room. It is locked and lockable. The N key unlocks the N Door. The description of the N Door is "A large titanium door. It's truly massive. You bet whatever's behind the door is also massive."
+The N Door is a door. It is south of North Room. The N key unlocks the N Door. The description of the N Door is "A large titanium door. It's truly massive. You bet whatever's behind the door is also massive."
 
 The Ammo Box is an enterable supporter in the North Room. The description is "A box of ammo. Seems to hold rockets."
 
@@ -147,10 +147,10 @@ After examining the Ammo Box for the first time:
 	say "Looks like a really interesting ammo box. You touch it and the ammo box glows with a slight glow. Not very big. Area 51's got some trippy science."
 	
 An every turn rule:
-	if the player is in a room for 6 turns, say "You hear cold, heavy footsteps approaching your way. Doesn't sound good."
+	if the player is in the Center of The Military Lab for 5 turns, say "You hear cold, heavy footsteps approaching your way. Doesn't sound good."
 
 An every turn rule:
-	if the player is in a room for 12 turns:
+	if the player is in the Center of the Military Lab for 10 turns:
 		end the game in death;
 		say "A general emerges out of the wall (SKETCHY!). He sees you and shoots you immediately."
 
@@ -187,7 +187,7 @@ After attacking the big safe for the fifth time:
 
 Red Chemical is a thing in Big Safe. The description is "The Red Chemical. That'll be so important."
 
-East Room is a room. It is east of the Nuclear Machinery. "You're in the the East Room. It's colder than usual in here. There is a big robot holding the yellow chemical."
+East Room is a room. It is east of the Nuclear Machinery. "You're in the the East Room. It's colder than usual in here. There's smoke coming from what looks to be a robot. Yeah. There is a big robot holding the yellow chemical, which is what the smoke is coming out of. The walls of the East Room are made of aluminum! Interesting."
 
 The description of the yellow chemical is "The yellow chemical. Believe it's time to mix this with the green?"
 
@@ -199,9 +199,10 @@ Instead of taking yellow chemical:
 	say "Robot 899 holds the tube containing the yellow chemical with strong force. You try to grab it. The Robot does not budge."
 
 Instead of giving Code 532 to Robot 899:
-	say "Robot 899 smiles and gives you a high five.";
 	move the Yellow Chemical to player;
 	Move the Titanium Key to player;
+	say "Robot 899 smiles and gives you a high five.";
+	
 	
 After attacking Robot 899 for the first time:
 	Increase the score by 2;
@@ -209,7 +210,7 @@ After attacking Robot 899 for the first time:
 	
 	
 After attacking Robot 899 for the second time:	
-	say "Robot 899 gets really angry and knocks you away. She says DON'T YOU DARE ATTACK ME AGAIN.";
+	say "Robot 899 gets really angry and knocks you away. The owner of this game suggests that you don't attack her again.";
 	
 
 After attacking Robot 899 for the third time:
@@ -228,7 +229,7 @@ The Right Chest is a closed openable container in the South Room. The descriptio
 
 The Code 654 is a thing inside the Right Chest. The Code 654 unlocks the Big Safe. The description of Code 654 is "A code written on a piece of paper. It says 6-5-4."
 
-West Room is a room. It is west of the Creature Testing Facility. "You're in the West Room. A gigantic creature stands before you."
+West Room is a room. It is west of the Creature Testing Facility. "You're in the West Room. It's a little hot in this room. Spiderwebs are encasted along the walls. A gigantic creature stands before you."
 
 KLAW is a male animal in the West Room. KLAW holds the Blue Chemical. The description of KLAW is "KLAW seems to want to kill you. Are you going to run or fight? You think he'll beat the crap out of you if you use your hands."
 
@@ -238,29 +239,21 @@ After examining KLAW for the first time:
 Instead of taking Blue Chemical:
 	say "You can't take the blue chemical. KLAW swipes at you and you dodge it right in time.";
 
-After attacking KLAW for the first time: 
+Instead of attacking KLAW: 
 If the player is carrying the Uranium Rifle,
-		say "You fire a bullet of Uranium at KLAW right in his stomach. He gets hurt and his mouth is open."
+		say "You fire a bullet of Uranium at KLAW right in his stomach. He gets hurt and his mouth is open.";
+If the player is not carrying the Uranium Rifle,
+	say "KLAW screams and slashes you, and knocks you back and hitting your back against the wall of the room. You then notice that from the slash you begin to lose blood. He made a huge cut. The pain is so overwhelming you pass out. You pass out from so much loss of blood and eventually more blood spews out of you and you die.";
+	end the game in death.
 		
-After attacking KLAW for the second time:
+Instead of attacking KLAW more than once:
 If the player is carrying the Uranium Grenade,
 		remove KLAW from play;
 		move the Blue Chemical to player;
 		move the N Key to player;
 	say "You throw a grenade into the open mouth of KLAW. He chokes and explodes. The blue chemical is right there and you take it.".
-		
-		
-After attacking KLAW for the first time: 
-	If the player is not carrying the Uranium Rifle, 
-	say "KLAW laughs and slaps you, knocking you back and hitting your back against the titanium wall of the room."
 	
-After attacking KLAW for the second time:
-	If the player is not carrying the Uranium Grenade,
-	say "KLAW soon begins to be annoyed. Instead of laughing he's making a face of anger towards you."
-	
-After attacking KLAW for the third time:
-	say "KLAW gets fed up and throws you onto the wall. The pain is so intense that your bones are crushed and you die.";
-	end the game in death.
+
 
 The description of the Blue Chemical is "You have found the blue chemical. Find the others and combine them, two at a time."
 
