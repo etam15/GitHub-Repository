@@ -4,6 +4,66 @@ When play begins: say "You wake up in the base of a military lab. Can't believe 
 
 The Description of the player is "You're a normal tan-skinned person (5'10, 180 lbs), wearing clothes that you don't feel like you normally wear. They must have given you them. The pockets on these are rather large. Maybe you could store a lot of things inside. There's a huge cut in your arm. Gross."
 
+Instead of taking Alpha Tank, say "That thing is how many pounds now? You can't take that."
+Instead of taking Jeep, say "You can't take that Jeep."
+
+Instead of attacking Alpha Tank, say "Hold your horses. You'll die if you even touched this."
+
+Instead of attacking Jeep, say "Slow down. You'll die if you touch this."
+
+Instead of attacking teleporter, say "That is indestructible."
+
+Instead of smelling a room, say "Smells like rusty metal with a hint of deodorant."
+
+Instead of entering Alpha Tank:
+	say "Hold those horses. Do you want to risk killing yourself?"
+
+Instead of entering Jeep:
+	say "Slow down. You'll die if you get on this, let alone even touch it."
+
+
+Understand "tongs" as ice tongs.
+
+Understand "Blue" as Blue Chemical.
+
+Understand "Red" as Red Chemical.
+
+Understand "Yellow" as Yellow Chemical.
+
+Understand "Green" as Green Chemical.
+
+Understand "Alpha" as Alpha Chemical.
+
+Understand "Beta" as Beta Chemical.
+
+Understand "Delta" as Delta Chemical.
+
+Understand "Fingerprints" as restored fingerprints.
+
+Understand "Restored" as restored fingerprints.
+
+Understand "tubes" as test tube rack.
+
+Understand "rack" as test tube rack.
+
+Understand "box" as titanium Box.
+
+Understand "belt" as chemical tray belt
+
+Understand "tray" as chemical tray belt.
+
+Understand "tank" as alpha tank.
+
+Understand "rifle" and "gun" as uranium rifle.
+
+Understand "bomb" as uranium grenade. 
+
+Understand "grenade" as uranium grenade.
+
+Understand "monster" as KLAW.
+
+Understand "glass" as broken glass.
+
 Understand "hit" and "kill"  as attacking. 
 
 Understand "mix" as combining it with.
@@ -16,15 +76,11 @@ Understand "Syringe" as Injection Syringe.
 	 
 Understand "glassware" as glass.
 
-Understand "go inside" as examining.
-
-Understand "go in" as examining.
-
 Understand "look at" as examining.
 
 Understand "creature" as KLAW.
 
-Understand "get on" as entering.
+Understand "Syringe" as injection syringe.
 
 Combining it with is an action applying to two things.
 Understand "combine [Blue Chemical] with [Red Chemical]" as combining it with.
@@ -33,6 +89,7 @@ Alpha Chemical is a thing. The description is "A Chemical Mixed by the Blue and 
 Beta Chemical is a thing. The description is "A Chemical mixed by the Green and Yellow Chemical. Combine it with the Alpha Chemical."
 Delta Chemical is a thing. The description is "A Chemical formed by mixing in all the Chemicals. Are you crazy enough to put this in your body?"
 The Injection Syringe is in Titanium Box. It is a closed openable container. The description is "A syringe used for injections. It's the size of a hot glue gun."
+
 
 Instead of combining Blue Chemical with Red Chemical:
 	remove Blue Chemical from play; 
@@ -65,7 +122,7 @@ Instead of putting Syringe on player:
 	say "You inject yourself with the Delta Chemical. You suddenly feel human and your fingerprints are restored."
 	
 	
-Restored Fingerprints is a thing. The description is "Your fingerprints have been restored to normal."
+Restored Fingerprints is a thing. The description is "Your fingerprints have been restored to normal in their swervy lines."
 
 The Center of The Military Lab is a room. "You're in the center of the Military Lab. It's quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here. There's some blood stains along the floor, but nothing like a murder scene. Where should you go now? You may go in all four directions: N, S, W, and E."
 
@@ -119,19 +176,11 @@ After touching Jeep for the second time:
 	say "The Jeep launches a nuclear forcefield. The general finds you and shoots you. No one is allowed on Area 51 unauthorized. In the afterlife you just wonder why the floors didn't kill you like that."
 
 
-Instead of entering Jeep: 
-	end the game in death;
-	say "The Jeep launches a nuclear forcefield. The general finds you and shoots you. No one is allowed on Area 51 unauthorized."
-
-
 After touching Alpha Tank for the second time: 
 	end the game in death;
 	say "The Tank launches a nuclear forcefield and fires a bullet straight through you. In the afterlife you figure that they had a fingerprint scanner on those vehicles. As they say, no one is allowed on Area 51 unauthorized."
 
 
-Instead of entering Alpha Tank: 
-	end the game in death;
-	say "The Tank launches a nuclear forcefield and fires a bullet straight through you. In the afterlife you figure that they had a fingerprint scanner on those vehicles. As they say, no one is allowed on Area 51 unauthorized. "
 
 
 Creature Testing Facility is a room. It is west of the Center of The Military Lab. "You're in the Creature Testing Facility. You know that because there's a sign on the bottom that seems like it was ripped off. There's really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you. The Military Lab's Center is back east."
@@ -253,13 +302,16 @@ If the player is carrying the Uranium Grenade,
 		move the N Key to player;
 	say "You throw a grenade into the open mouth of KLAW. He chokes and explodes. The blue chemical is right there and you take it.".
 
-
 The description of the Blue Chemical is "You have found the blue chemical. Find the others and combine them, two at a time."
 
 The N Key unlocks the N door. The description of The N Key is "A key labeled N. It's encasted in a black finish. The paint seems scratch proof."
 
-The teleporter is a door. It is west of West Room. The description of the teleporter is "A teleporter. There is a fingerprint scanner. This teleporter is your way out. Could some chemical fix up your fingers?"
+The teleporter is an enterable supporter in West Room. The description of the teleporter is "A teleporter stands before you. This teleporter is your way out. Could some chemical fix up your fingers? A platform and a fingerprint scanner is on the teleporter. Next to it says HUMANS ONLY. "
 
-Instead of examining teleporter:
-	If player is carrying the Restored Fingerprints, say "You put your fingerprint on the scanner of the teleporter and the computer identifies you as a human. You step in the teleporter and you're taken outside to the Area 51 NO TRESSPASSING sign and the line.";
-	end the game in victory.
+An every turn rule:
+If player is carrying the Restored Fingerprints,
+end the game in victory.
+	
+An every turn rule:
+If player is carrying the Restored Fingerprints,
+say "Your newly restored fingerprints are looking humane. You run back to the teleporter and put your fingerprint on the scanner of the teleporter and the computer identifies you as a human. You step in the teleporter's bright white platform and you're taken outside to the Area 51 NO TRESSPASSING sign and the line.";

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1babfa0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1babfa0" />
+  <activeNode nodeId="node-0x114daf60" />
   <item nodeId="node-0x1babfa0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -22,89 +22,280 @@ You can see a S Door, Titanium Box (closed), a Green Light, an Ice Tongs and a C
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="16">NO</temporary>
+    <temporary score="97">NO</temporary>
     <children>
+      <child nodeId="node-0x114cb990" />
       <child nodeId="node-0x1baccb0" />
       <child nodeId="node-0x1bad060" />
-      <child nodeId="node-0x1bacff0" />
-      <child nodeId="node-0x1bacf10" />
-      <child nodeId="node-0x1bacd50" />
-      <child nodeId="node-0x1bac850" />
-      <child nodeId="node-0x1bacaf0" />
+      <child nodeId="node-0x114e7050" />
+      <child nodeId="node-0x114a21e0" />
       <child nodeId="node-0x1bac930" />
-      <child nodeId="node-0x1bac660" />
-      <child nodeId="node-0x1bac4b0" />
-      <child nodeId="node-0x1bac3d0" />
-      <child nodeId="node-0x1bac040" />
+      <child nodeId="node-0xb1e87b0" />
     </children>
   </item>
-  <item nodeId="node-0x1bac040">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Glassware Room
-A room full of glass containers. The room is of a tinted blue. The color illuminates from the lights 20 feet above you. It looks a little messy. Maybe a disagreement went on in here?
-
-You can see a N Door, a Test Tube Rack and a Broken Glass here.
+  <item nodeId="node-0xb1e87b0">
+    <command xml:space="preserve">wet</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="16">YES</temporary>
+    <temporary score="61">YES</temporary>
     <children>
-      <child nodeId="node-0x1bac380" />
-      <child nodeId="node-0x1be21d0" />
+      <child nodeId="node-0x114a29f0" />
     </children>
   </item>
-  <item nodeId="node-0x1be21d0">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">(first opening the N Door)
-
-North Room
-You&apos;ve reached the north room. It&apos;s covered with titanium walls.
-
-You can see a N Door, an Ammo Box and Big Safe (closed) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bac380">
-    <command xml:space="preserve">n</command>
+  <item nodeId="node-0x114a29f0">
+    <command xml:space="preserve">west</command>
     <result xml:space="preserve">
-North Room
-You&apos;ve reached the north room. It&apos;s covered with titanium walls.
-
-You can see a N Door, an Ammo Box and Big Safe (closed) here.
+Creature Testing Facility
+You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you. The Military Lab&apos;s Center is back east.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="21">YES</temporary>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xa08e060" />
+    </children>
   </item>
-  <item nodeId="node-0x1bac3d0">
-    <command xml:space="preserve">combine blue chemical with red chemical</command>
+  <item nodeId="node-0xa08e060">
+    <command xml:space="preserve">take restored fingerprints</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="3">YES</temporary>
+    <temporary score="60">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bac930">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Nuclear Machinery
+You&apos;re in the Nuclear Machinery Room. You don&apos;t wanna touch anything. The room is very big and filled with vehicles in a color that is quite unusual. It&apos;s also quite cold in here. You hear the sound of an air conditioner from far away but it&apos;s still quite loud.
+
+You can see a Table (on which is a S Key), an Alpha Tank and a Jeep here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
     <children>
-      <child nodeId="node-0x1bac460" />
+      <child nodeId="node-0x1140d7d0" />
+      <child nodeId="node-0x1414ff40" />
+      <child nodeId="node-0xe4de430" />
     </children>
   </item>
-  <item nodeId="node-0x1bac460">
-    <command xml:space="preserve">take titanium box</command>
-    <result xml:space="preserve">Taken.
+  <item nodeId="node-0xe4de430">
+    <command xml:space="preserve">enter alpha tank</command>
+    <result xml:space="preserve">Hold your horses.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="2">YES</temporary>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x11416bc0" />
+    </children>
   </item>
-  <item nodeId="node-0x1bac4b0">
-    <command xml:space="preserve">e</command>
+  <item nodeId="node-0x11416bc0">
+    <command xml:space="preserve">enter alpha tank</command>
+    <result xml:space="preserve">Hold your horses.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+  </item>
+  <item nodeId="node-0x1414ff40">
+    <command xml:space="preserve">touch alpha tank</command>
+    <result xml:space="preserve">The Alpha Tank notices you as an alien and not a human. You get a vibe from it, warning you to stay away and stressing that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="97">YES</temporary>
+    <children>
+      <child nodeId="node-0x114daf60" />
+    </children>
+  </item>
+  <item nodeId="node-0x114daf60">
+    <command xml:space="preserve">touch alpha tank</command>
+    <result xml:space="preserve">The Tank launches a nuclear forcefield and fires a bullet straight through you. In the afterlife you figure that they had a fingerprint scanner on those vehicles. As they say, no one is allowed on Area 51 unauthorized.
+
+
+
+    *** You have died ***
+
+
+In that game you scored 0 out of a possible 0, in 3 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+  </item>
+  <item nodeId="node-0x1140d7d0">
+    <command xml:space="preserve">enter jeep</command>
+    <result xml:space="preserve">Slow down. You&apos;ll die.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="93">YES</temporary>
+  </item>
+  <item nodeId="node-0x114a21e0">
+    <command xml:space="preserve">sit on door</command>
+    <result xml:space="preserve">(first opening the S Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b0d250" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b0d250">
+    <command xml:space="preserve">sit on light</command>
+    <result xml:space="preserve">You get onto the Green Light.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="62">YES</temporary>
+  </item>
+  <item nodeId="node-0x114e7050">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the S Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="74">YES</temporary>
+    <children>
+      <child nodeId="node-0xe4a58f0" />
+      <child nodeId="node-0x114b0860" />
+    </children>
+  </item>
+  <item nodeId="node-0x114b0860">
+    <command xml:space="preserve">open south door</command>
+    <result xml:space="preserve">I only understood you as far as wanting to open south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="74">YES</temporary>
+    <children>
+      <child nodeId="node-0x11409e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x11409e40">
+    <command xml:space="preserve">open s door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+  </item>
+  <item nodeId="node-0xe4a58f0">
+    <command xml:space="preserve">get on s door</command>
+    <result xml:space="preserve">(first opening the S Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="71">YES</temporary>
+    <children>
+      <child nodeId="node-0x1140c6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1140c6f0">
+    <command xml:space="preserve">get on s door</command>
+    <result xml:space="preserve">(first opening the S Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="70">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bad060">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Creature Testing Facility
+You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you. The Military Lab&apos;s Center is back east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x114198e0" />
+      <child nodeId="node-0x11490800" />
+      <child nodeId="node-0x1bad1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bad1b0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+West Room
+You&apos;re in the West Room. It&apos;s a little hot in this room. Spiderwebs dyed in red are encasted along the walls. A gigantic creature stands before you. The Creature Testing Facility is West of you.
+
+You can see KLAW and a teleporter here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bbad90" />
+      <child nodeId="node-0x1bacbd0" />
+      <child nodeId="node-0xa0849b0" />
+      <child nodeId="node-0x1be3ce0" />
+      <child nodeId="node-0x1b91390" />
+      <child nodeId="node-0x6c99520" />
+      <child nodeId="node-0xebdd870" />
+    </children>
+  </item>
+  <item nodeId="node-0xebdd870">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Creature Testing Facility
+You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you. The Military Lab&apos;s Center is back east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb34180" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb34180">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here. There&apos;s some blood stains along the floor, but nothing like a murder scene. Where should you go now? You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tray Belt here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb5d7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb5d7a0">
+    <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Nuclear Machinery
 You&apos;re in the Nuclear Machinery Room. You don&apos;t wanna touch anything. The room is very big and filled with vehicles in a color that is quite unusual. It&apos;s also quite cold in here. You hear the sound of an air conditioner from far away but it&apos;s still quite loud.
@@ -114,440 +305,121 @@ You can see a Table (on which is a S Key), an Alpha Tank and a Jeep here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0xa080ff0" />
-      <child nodeId="node-0x1bac520" />
+      <child nodeId="node-0xebd5260" />
     </children>
   </item>
-  <item nodeId="node-0x1bac520">
-    <command xml:space="preserve">x table</command>
-    <result xml:space="preserve">A table that seems like you CAN touch.
-
-On the Table is a S Key.
+  <item nodeId="node-0xebd5260">
+    <command xml:space="preserve">enter alpha tank</command>
+    <result xml:space="preserve">I said to hold your horses.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="11">YES</temporary>
+    <temporary score="79">YES</temporary>
+  </item>
+  <item nodeId="node-0x6c99520">
+    <command xml:space="preserve">get on teleporter</command>
+    <result xml:space="preserve">You get onto the teleporter.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="44">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b91390">
+    <command xml:space="preserve">go inside teleporter</command>
+    <result xml:space="preserve">(first opening the teleporter)
+You can&apos;t, since the teleporter leads nowhere.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+  </item>
+  <item nodeId="node-0x1be3ce0">
+    <command xml:space="preserve">x teleporter</command>
+    <result xml:space="preserve">A teleporter stands before you. This teleporter is your way out. Could some chemical fix up your fingers? A platform and a fingerprint scanner is on the teleporter. Next to it says HUMANS ONLY. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
     <children>
-      <child nodeId="node-0x1bac610" />
+      <child nodeId="node-0x1bbbee0" />
     </children>
   </item>
-  <item nodeId="node-0x1bac610">
-    <command xml:space="preserve">touch alpha tank</command>
-    <result xml:space="preserve">The Tank launches a nuclear forcefield and fires a bullet straight through you. In the afterlife you figure that they had a fingerprint scanner on those vehicles. As they say, no one is allowed on Area 51 unauthorized.
+  <item nodeId="node-0x1bbbee0">
+    <command xml:space="preserve">get on teleporter</command>
+    <result xml:space="preserve">You get onto the teleporter.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="51">YES</temporary>
   </item>
-  <item nodeId="node-0xa080ff0">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">S Key: Taken.
+  <item nodeId="node-0xa0849b0">
+    <command xml:space="preserve">go in teleporter</command>
+    <result xml:space="preserve">You get onto the teleporter.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <temporary score="39">YES</temporary>
     <children>
-      <child nodeId="node-0xa083280" />
+      <child nodeId="node-0xb219bd0" />
     </children>
   </item>
-  <item nodeId="node-0xa083280">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+  <item nodeId="node-0xb219bd0">
+    <command xml:space="preserve">go on teleporter</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <temporary score="39">YES</temporary>
     <children>
-      <child nodeId="node-0x1bda4b0" />
+      <child nodeId="node-0xeb48980" />
     </children>
   </item>
-  <item nodeId="node-0x1bda4b0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Center of The Military Lab
-You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here. There&apos;s some blood stains along the floor, but nothing like a murder scene. Where should you go now? You may go in all four directions: N, S, W, and E.
-
-You can see a S Door, Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tray Belt here.
+  <item nodeId="node-0xeb48980">
+    <command xml:space="preserve">x teleporter</command>
+    <result xml:space="preserve">A teleporter. There is a fingerprint scanner. This teleporter is your way out. Could some chemical fix up your fingers?
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <temporary score="39">YES</temporary>
     <children>
-      <child nodeId="node-0x6cf5170" />
+      <child nodeId="node-0xa068910" />
     </children>
   </item>
-  <item nodeId="node-0x6cf5170">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">(first opening the S Door)
-It seems to be locked.
+  <item nodeId="node-0xa068910">
+    <command xml:space="preserve">go in teleporter</command>
+    <result xml:space="preserve">But you&apos;re already on the teleporter.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <temporary score="39">YES</temporary>
     <children>
-      <child nodeId="node-0xa065250" />
+      <child nodeId="node-0xa0598e0" />
     </children>
   </item>
-  <item nodeId="node-0xa065250">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Glassware Room
-A room full of glass containers. The room is of a tinted blue. The color illuminates from the lights 20 feet above you. It looks a little messy. Maybe a disagreement went on in here?
+  <item nodeId="node-0xa0598e0">
+    <command xml:space="preserve">get off teleporter</command>
+    <result xml:space="preserve">You get off the teleporter.
 
-You can see a Test Tube Rack and a Broken Glass here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bba250" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bba250">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-North Room
-You&apos;ve reached the north room. It&apos;s covered with titanium walls.
-
-You can see a N Door, an Ammo Box and Big Safe (closed) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0xa083190" />
-    </children>
-  </item>
-  <item nodeId="node-0xa083190">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">(first opening the N Door)
-You can&apos;t, since the N Door leads nowhere.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0xa07fbf0" />
-    </children>
-  </item>
-  <item nodeId="node-0xa07fbf0">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="13">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bac660">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">(first opening the S Door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bac6b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bac6b0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Creature Testing Facility
-You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bac720" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bac720">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
 West Room
-You&apos;re in the West Room. A gigantic creature stands before you.
+You&apos;re in the West Room. It&apos;s a little hot in this room. Spiderwebs dyed in red are encasted along the walls. A gigantic creature stands before you. The Creature Testing Facility is West of you.
 
 You can see KLAW and a teleporter here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bac790" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bac790">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Creature Testing Facility
-You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bac8c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bac8c0">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Center of The Military Lab
-You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here. There&apos;s some blood stains along the floor, but nothing like a murder scene. Where should you go now? You may go in all four directions: N, S, W, and E.
-
-You can see a S Door, Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tray Belt here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bac5b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bac5b0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Creature Testing Facility
-You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you.
-
-You hear cold, heavy footsteps approaching your way. Doesn&apos;t sound good.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="8">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bac930">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Nuclear Machinery
-You&apos;re in the Nuclear Machinery Room. You don&apos;t wanna touch anything. The room is very big and filled with vehicles in a color that is quite unusual.
-
-You can see a Table (on which is a S Key), an Alpha Tank and a Jeep here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="16">YES</temporary>
-    <children>
-      <child nodeId="node-0x1baca10" />
-      <child nodeId="node-0x1bac9a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bac9a0">
-    <command xml:space="preserve">touch alpha tank</command>
-    <result xml:space="preserve">The Tank launches a nuclear forcefield and fires a bullet straight through you. In the afterlife you figure that they had a fingerprint scanner on those vehicles. As they say, no one is allowed on Area 51 unauthorized.
-
-
-
-    *** You have died ***
-
-
-In that game you scored 0 out of a possible 0, in 2 turns.
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="12">YES</temporary>
-  </item>
-  <item nodeId="node-0x1baca10">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">S Key: Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="16">YES</temporary>
-    <children>
-      <child nodeId="node-0x1baca80" />
-    </children>
-  </item>
-  <item nodeId="node-0x1baca80">
-    <command xml:space="preserve">x s key</command>
-    <result xml:space="preserve">A basic silvery key is on the ground. It&apos;s labeled S.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bacaf0">
-    <command xml:space="preserve">unlock titanium box</command>
-    <result xml:space="preserve">What do you want to unlock Titanium Box with?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="7">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bacb60" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bacb60">
-    <command xml:space="preserve">unlock titanium box with titanium keu</command>
-    <result xml:space="preserve">I only understood you as far as wanting to unlock Titanium Box with Titanium Box.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="7">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bac800" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bac800">
-    <command xml:space="preserve">unlock titanium box with titanium key</command>
-    <result xml:space="preserve">I only understood you as far as wanting to unlock Titanium Box with Titanium Box.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bac850">
-    <command xml:space="preserve">open titanium box</command>
-    <result xml:space="preserve">It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bacd50">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bace30" />
-      <child nodeId="node-0x1bacdc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bacdc0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="2">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bace30">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">Uranium Rifle: Taken.
-Uranium Grenade: Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="19">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bacea0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bacea0">
-    <command xml:space="preserve">unlock s door with s key</command>
-    <result xml:space="preserve">I only understood you as far as wanting to unlock the S Door with the S Door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bacf10">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">Titanium Box: Taken.
-Ice Tongs: Taken.
-Chemical Tray Belt: Taken.
-
-The General of this base sees you and shoots you. End.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bacf80" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bacf80">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Creature Testing Facility
-You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. Care to go West? Curiousity could kill you.
-
-You can see a W Door here.
-
-The General of this base sees you and shoots you. End.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bacff0">
-    <command xml:space="preserve">take green light</command>
-    <result xml:space="preserve">That&apos;s fixed in place.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bad060">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Creature Testing Facility
-You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bad0d0" />
-      <child nodeId="node-0x1bad1b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bad1b0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-West Room
-You&apos;re in the West Room. It&apos;s a little hot in this room. Spiderwebs are encasted along the walls. A gigantic creature stands before you.
-
-You can see KLAW and a teleporter here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bacbd0" />
-    </children>
+    <temporary score="38">YES</temporary>
   </item>
   <item nodeId="node-0x1bacbd0">
     <command xml:space="preserve">attack klaw</command>
@@ -579,7 +451,78 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
   </item>
-  <item nodeId="node-0x1bad0d0">
+  <item nodeId="node-0x1bbad90">
+    <command xml:space="preserve">x creature</command>
+    <result xml:space="preserve">KLAW seems to want to kill you. Are you going to run or fight? You think he&apos;ll beat the crap out of you if you use your hands.
+
+KLAW looks at you and roars. You&apos;re so intimidated, as he stands at a solid 15 feet. He has the skin of a T-Rex and limbs like a very athletic animal. He has the face of a ninja turtle. The claws on his fingers and feet are covered in blood. A lab suit is in his mouth. He has the teeth of a mammoth shark.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+  </item>
+  <item nodeId="node-0x11490800">
+    <command xml:space="preserve">restart</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="56">YES</temporary>
+  </item>
+  <item nodeId="node-0x114198e0">
+    <command xml:space="preserve">enter alpha tank</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x1149e4b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1149e4b0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+West Room
+You&apos;re in the West Room. It&apos;s a little hot in this room. Spiderwebs dyed in red are encasted along the walls. A gigantic creature stands before you. The Creature Testing Facility is West of you.
+
+You can see KLAW and a teleporter here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x114da8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x114da8e0">
+    <command xml:space="preserve">enter alpha tank</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x1415d2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1415d2c0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Creature Testing Facility
+You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you. The Military Lab&apos;s Center is back east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x11419ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11419ed0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Center of The Military Lab
@@ -590,33 +533,59 @@ You can see a S Door, Titanium Box (closed), a Green Light, an Ice Tongs and a C
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="12">YES</temporary>
+    <temporary score="92">YES</temporary>
     <children>
-      <child nodeId="node-0x1bad140" />
+      <child nodeId="node-0xe43fea0" />
     </children>
   </item>
-  <item nodeId="node-0x1bad140">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">(first opening the S Door)
-It seems to be locked.
+  <item nodeId="node-0xe43fea0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Nuclear Machinery
+You&apos;re in the Nuclear Machinery Room. You don&apos;t wanna touch anything. The room is very big and filled with vehicles in a color that is quite unusual. It&apos;s also quite cold in here. You hear the sound of an air conditioner from far away but it&apos;s still quite loud.
+
+You can see a Table (on which is a S Key), an Alpha Tank and a Jeep here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="11">YES</temporary>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0xebde530" />
+    </children>
+  </item>
+  <item nodeId="node-0xebde530">
+    <command xml:space="preserve">enter alpha tank</command>
+    <result xml:space="preserve">Hold your horses.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x1142c6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1142c6b0">
+    <command xml:space="preserve">enter alpha tank</command>
+    <result xml:space="preserve">But you&apos;re already on the Alpha Tank.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
   </item>
   <item nodeId="node-0x1baccb0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Creature Testing Facility
-You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you.
+You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you. The Military Lab&apos;s Center is back east.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="5">YES</temporary>
+    <temporary score="66">YES</temporary>
     <children>
-      <child nodeId="node-0x1bae420" />
       <child nodeId="node-0x1bad700" />
       <child nodeId="node-0x1bad460" />
     </children>
@@ -692,489 +661,46 @@ You can see KLAW and a teleporter here.
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 West Room
-You&apos;re in the West Room. It&apos;s a little hot in this room. Spiderwebs dyed in red are encasted along the walls. A gigantic creature stands before you.
+You&apos;re in the West Room. It&apos;s a little hot in this room. Spiderwebs dyed in red are encasted along the walls. A gigantic creature stands before you. The Creature Testing Facility is West of you.
 
 You can see KLAW and a teleporter here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="66">YES</temporary>
     <children>
-      <child nodeId="node-0x1bad290" />
-      <child nodeId="node-0x1bad770" />
+      <child nodeId="node-0x11456b00" />
     </children>
   </item>
-  <item nodeId="node-0x1bad770">
-    <command xml:space="preserve">attack KLAW</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bad850" />
-      <child nodeId="node-0x1bad7e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bad7e0">
-    <command xml:space="preserve">attack KLAW</command>
-    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bad850">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bad8c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bad8c0">
-    <command xml:space="preserve">attack KLAW</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bad930" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bad930">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bad9a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bad9a0">
-    <command xml:space="preserve">attack klaw</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bada10" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bada10">
-    <command xml:space="preserve">x klaw</command>
-    <result xml:space="preserve">KLAW seems to want to kill you. Are you going to run or fight? You think he&apos;ll beat the crap out of you if you use your hands.
-
-KLAW looks at you and roars. You&apos;re so intimidated, as he stands at a solid 15 feet. He has the skin of a T-Rex and limbs like a very athletic animal. He has the face of a ninja turtle. The claws on his fingers and feet are covered in blood. A lab suit is in his mouth. He has the teeth of a mammoth shark.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bada80" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bada80">
-    <command xml:space="preserve">attack klaw</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
-    <children>
-      <child nodeId="node-0x1badaf0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1badaf0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
-    <children>
-      <child nodeId="node-0x1badb60" />
-    </children>
-  </item>
-  <item nodeId="node-0x1badb60">
-    <command xml:space="preserve">attack KLAW</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bad220" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bad220">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="27">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bad290">
-    <command xml:space="preserve">attack klaw</command>
-    <result xml:space="preserve">KLAW screams and slashes you, and knocks you back and hitting your back against the wall of the room. You then notice that from the slash you begin to lose blood. He made a huge cut. The pain is so overwhelming you pass out. You pass out from so much loss of blood and eventually more blood spews out of you and you die.
-
-
-
-    *** You have died ***
-
-
-In that game you scored 0 out of a possible 0, in 3 turns.
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
-    <children>
-      <child nodeId="node-0x18433e0" />
-      <child nodeId="node-0x1bad300" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bad300">
-    <command xml:space="preserve">KLAW</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bad370" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bad370">
-    <command xml:space="preserve">x KLAW</command>
-    <result xml:space="preserve">KLAW seems to want to kill you. Are you going to run or fight? You think he&apos;ll beat the crap out of you if you use your hands.
-
-KLAW looks at you and roars. You&apos;re so intimidated, as he stands at a solid 15 feet. He has the skin of a T-Rex and limbs like a very athletic animal. He has the face of a ninja turtle. The claws on his fingers and feet are covered in blood. A lab suit is in his mouth. He has the teeth of a mammoth shark.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bad3e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bad3e0">
-    <command xml:space="preserve">attack klaw</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1badbd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1badbd0">
-    <command xml:space="preserve">take KLAW</command>
-    <result xml:space="preserve">I don&apos;t suppose KLAW would care for that.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1badc40" />
-    </children>
-  </item>
-  <item nodeId="node-0x1badc40">
-    <command xml:space="preserve">x claw</command>
+  <item nodeId="node-0x11456b00">
+    <command xml:space="preserve">x wall</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="60">YES</temporary>
+    <temporary score="65">YES</temporary>
+  </item>
+  <item nodeId="node-0x114cb990">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
     <children>
-      <child nodeId="node-0x1badcb0" />
+      <child nodeId="node-0xb219c20" />
     </children>
   </item>
-  <item nodeId="node-0x1badcb0">
-    <command xml:space="preserve">c klaw</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0xb219c20">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1badd20" />
-    </children>
-  </item>
-  <item nodeId="node-0x1badd20">
-    <command xml:space="preserve">x klaw</command>
-    <result xml:space="preserve">KLAW seems to want to kill you. Are you going to run or fight? You think he&apos;ll beat the crap out of you if you use your hands.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1badd90" />
-    </children>
-  </item>
-  <item nodeId="node-0x1badd90">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Creature Testing Facility
-You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bade00" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bade00">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Center of The Military Lab
-You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here. There&apos;s some blood stains along the floor, but nothing like a murder scene. Where should you go now? You may go in all four directions: N, S, W, and E.
-
-You can see a S Door, Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tray Belt here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bade70" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bade70">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Nuclear Machinery
-You&apos;re in the Nuclear Machinery Room. You don&apos;t wanna touch anything. The room is very big and filled with vehicles in a color that is quite unusual.
-
-You can see a Table (on which is a S Key), an Alpha Tank and a Jeep here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1badee0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1badee0">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">S Key: Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1badf50" />
-    </children>
-  </item>
-  <item nodeId="node-0x1badf50">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Center of The Military Lab
-You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here. There&apos;s some blood stains along the floor, but nothing like a murder scene. Where should you go now? You may go in all four directions: N, S, W, and E.
-
-You can see a S Door, Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tray Belt here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1badfc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1badfc0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">(first opening the S Door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bae030" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bae030">
-    <command xml:space="preserve">unlock s door with s key</command>
-    <result xml:space="preserve">You unlock the S Door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bae0a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bae0a0">
-    <command xml:space="preserve">open s door</command>
-    <result xml:space="preserve">You open the S Door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bae110" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bae110">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Nuclear Weapons Room
-Goodness. So many weapons. There&apos;s something on the table.
-
-You can see a S Door, an Uranium Rifle and an Uranium Grenade here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bae180" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bae180">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">Uranium Rifle: Taken.
-Uranium Grenade: Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bae1f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bae1f0">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Center of The Military Lab
-You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here. There&apos;s some blood stains along the floor, but nothing like a murder scene. Where should you go now? You may go in all four directions: N, S, W, and E.
-
-You can see a S Door, Titanium Box (closed), a Green Light, an Ice Tongs and a Chemical Tray Belt here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bae260" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bae260">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Creature Testing Facility
-You&apos;re in the Creature Testing Facility. You know that because there&apos;s a sign on the bottom that seems like it was ripped off. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel!) Care to go West? Curiousity could kill you.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bae2d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bae2d0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-West Room
-You&apos;re in the West Room. It&apos;s a little hot in this room. Spiderwebs are encasted along the walls. A gigantic creature stands before you.
-
-You can see KLAW and a teleporter here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bae340" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bae340">
-    <command xml:space="preserve">attack KLAW</command>
-    <result xml:space="preserve">You fire a bullet of Uranium at KLAW right in his stomach. He gets hurt and his mouth is open.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bae3b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bae3b0">
-    <command xml:space="preserve">attack KLAW</command>
-    <result xml:space="preserve">You fire a bullet of Uranium at KLAW right in his stomach. He gets hurt and his mouth is open.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="59">YES</temporary>
-  </item>
-  <item nodeId="node-0x18433e0">
-    <command xml:space="preserve">restart</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bae420">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the W Door)
-You can&apos;t, since the W Door leads nowhere.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="8">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bae490" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bae490">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="8">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bae500" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bae500">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">You can&apos;t, since the W Door leads nowhere.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="7">YES</temporary>
+    <temporary score="67">YES</temporary>
   </item>
 </Skein>
