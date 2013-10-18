@@ -2,6 +2,8 @@
 
 [introductory content]
 
+The maximum score is 10.
+
 When play begins: say "You wake up in the base of a military lab. Can't believe you're alive, huh? From a sign outside you realize you're in Area 51. You feel as if 4 small parts of your body has been extracted right out of you but you don't know what's happened. You don't know what's going on. But what you do know is that you need to replemish what you've lost and get the hell out of this base using chemicals. The sign outside Area 51 was already intimidating. Now you're in the base of the operation. The military will do anything to kill you. It seems that everybody's out and the security cameras are off… for now. No time to poop your pants. Get out of here. But, be VERY careful."
 
 The Description of the player is "You're a normal tan-skinned person (5'10, 180 lbs), wearing clothes that you don't feel like you normally wear. They must have given you them. The pockets on these are rather large. Maybe you could store a lot of things inside. There's a huge cut in your arm. Gross. Your fingerprints look odd."
@@ -18,7 +20,7 @@ North Room is a room. It is north of the N Door. "You've reached the north room.
 
 The Glassware Room is back south."
 
-East Room is a room. It is east of the E Door. "You're in the the East Room. It's colder than usual in here. There's smoke coming from what looks to be a robot. Yeah. There is a big robot holding the yellow chemical, which is what the smoke is coming out of. The walls of the East Room are made of aluminum! Interesting. 
+East Room is a room. It is east of the Nuclear Machinery. "You're in the the East Room. It's colder than usual in here. There's smoke coming from what looks to be a robot. Yeah. There is a big robot holding the yellow chemical, which is what the smoke is coming out of. The walls of the East Room are made of aluminum! Interesting. 
 
 The Nuclear Machinery room is back west."
 
@@ -28,13 +30,13 @@ The Nuclear Weapons Room is back north."
 
 West Room is a room. It is west of the Creature Testing facility. The description is "This room is quite the room indeed. It has such a high ceiling with walls made of durable lead (imagine how heavy that is).
 
-The Creature Testing Facility is back north"
+The Creature Testing Facility is back east."
 
-Creature Testing Facility is a room. It is west of the W Door. "You're in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There's really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever's up ahead is probably gonna be something dangerous. 
+Creature Testing Facility is a room. It is west of the Center of The Military Lab. "You're in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There's really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever's up ahead is probably gonna be something dangerous. 
 
 The Military Lab's Center is back east. Another room seems to be at the next west turn."
 
-Nuclear Machinery is a room. It is east of the Center of The Military Lab. "You're in the Nuclear Machinery Room. You don't wanna touch anything because everything looks so intimidating and so big. Even when you whisper the room echoes your voice.. There sure aren't any weapons around this room. The room is very big and filled with vehicles in a color that is quite unusual. It's also quite cold in here. You hear the sound of an air conditioner from far away but it's still quite loud.
+Nuclear Machinery is a room. It is east of the Center of The Military Lab. "You're in the Nuclear Machinery Room. You don't want to touch anything because everything looks so intimidating and so big. Even when you whisper the room echoes your voice.. There sure aren't any weapons around this room. The room is very big and filled with vehicles in a color that is quite unusual. It's also quite cold in here. You hear the sound of an air conditioner from far away but it's still quite loud.
 
 The Center of The Military lab is back west. Another room seems to be at the next east turn."
 
@@ -49,13 +51,10 @@ The Center of The Military Lab is back south. Another room seems to be up ahead.
 [things in rooms]
 
 
-The Big Safe is a closed openable container in the North Room. It is locked and lockable. The description is "This is one big black safe. It seems to have a three number code. 
-
-What code shall you put in?"
-
+The Big Safe is a closed openable container in the North Room. It is locked and lockable. The description is "This is one big black safe. There is a lock on it."
 
 After examining the Big Safe for the first time:
-	say "This is the largest safe you've ever seen and surely nothing you've dreamed about. It seems to have a code lock and the whole safe is encasted with a metallic black paint. "
+	say "This is the largest safe you've ever seen and surely nothing you've dreamed about. It seems to have a code lock and the whole safe is encasted with a metallic black paint."
 
 After examining the Ammo Box for the first time:
 	 increase the score by 2;
@@ -70,11 +69,9 @@ The Left Chest is a closed openable container in the South Room. The description
 
 The Right Chest is a closed openable container in the South Room. The description of Right Chest is "The right chest of the South room. It is also made out of iron."
 
-The Code 654 is a thing inside the Right Chest. The Code 654 unlocks the Big Safe. The description of Code 654 is "A code written on a piece of paper. It says 6-5-4."
+The Code 654 is a thing inside the Right Chest. The Code 654 unlocks the Big Safe. The description of Code 654 is "A code written on a piece of paper. It says 654. Take it."
 
-
-The Code 532 is in Right Chest. The description is "You open the code book. There is nothing in it that you understand. You look in the back, revealing a 532."
-
+The Code 532 is in Right Chest. The description is "You open the code book. There is nothing in it that you understand. You look in the back, revealing a 532. Take it."
 
 The big amount of spiderwebs is in the Creature Testing Facility. The description is "We've been told spiderwebs could be manipulated for sturdy use. Nice job, Area 51. You've encasted the walls in spiderwebs."
 
@@ -100,18 +97,19 @@ The Broken Glass is an enterable supporter in the Glassware Room. The descriptio
 The Uranium Rifle is a thing in Nuclear Weapons Room. The description of the Uranium Rifle is "It looks like an AK-47. On the trigger it says URANIUM WEAPON."
 
 The suitcase is a closed openable container. It is on Table. The description is
-"Just a black leather suitcase. No lock on it."
+"Just a black leather suitcase. No lock on it. See what's inside?"
 
 The Uranium Grenade is a thing in Nuclear Weapons room. The description is "It looks like a regular grenade, labeled LOADED WITH URANIUM. BE CAREFUL."
 
 The sign is a thing in the Creature Testing Facility. The description is "Dangerous creature(s) west. Use Caution."
+
+The Injection Syringe is a container in Titanium Box. The description is "A syringe used for injections. It's the size of a hot glue gun. There is a little passage encasted on the tube that says IN CASE OF GENETIC PROBLEMS WITHIN YOUR BODY, COMBINE TWO SUBSTANCES AT A TIME. ONCE DONE, YOU SHOULD KNOW WHAT TO DO."
 
 The Table is an enterable supporter in Nuclear Machinery. The description of the Table is "A table that seems like you CAN touch."
 
 The Alpha Tank is an enterable supporter in the Nuclear Machinery. The description of the Alpha Tank is "It's a large tank. It's larger than most, you think. The wheels are as big as monster truck wheels and the gun is like the length of a small car. There are no warning labels. Best not to touch it. Most likely you're bound to die."
 
 The Jeep is an enterable supporter in the Nuclear Machinery. The description of the Jeep is "A jeep. What? It has two turrets in the front and back that says TRIDIUM BULLETS INSIDE. You wouldn't have the guts to even touch that vehicle. You shouldn't be the one to die here."
-
 
 After touching the Alpha tank for the first time:
 	say "The Alpha Tank notices you as an alien and not a human. You get a vibe from it, warning you to stay away and stressing that."
@@ -129,22 +127,24 @@ After touching Alpha Tank for the second time:
 After examining KLAW for the first time:
 	say "KLAW looks at you and roars. You're so intimidated, as he stands at a solid 15 feet. He has the skin of a T-Rex and limbs like a very athletic animal. He has the face of a ninja turtle. The claws on his fingers and feet are covered in blood. A lab suit is in his mouth. He has the teeth of a mammoth shark."
 	
+After examining Robot 899 for the first time:
+	say "You see a female looking robot with the number 899 on her forehead. She senses your presence and asks for a code."
 
 [chemicals]
 
-Red Chemical is a thing in Big Safe. The description is "The Red Chemical. That'll be so important."
+Red Chemical is a thing in Big Safe. The description is "There's the red chemical. This glows brightly in a solid red color."
 
 The description of the Blue Chemical is "You have found the blue chemical. Find the others and combine them, two at a time."
 
 The Green Chemical is a thing inside the Left Chest. The description of the Green Chemical is "A green chemical. You feel like this serves as some importance."
 
-The description of the yellow chemical is "The yellow chemical. Believe it's time to mix this with the green?"
+The description of the yellow chemical is "The yellow chemical glows brightly in a solid yellow color."
 
-Alpha Chemical is a thing. The description is "A Chemical Mixed by the Blue and Red Chemical. Combine it with the Beta Chemical."
+Alpha Chemical is a thing. The description is "A Chemical Mixed by the Blue and Red Chemical."
 
-Beta Chemical is a thing. The description is "A Chemical mixed by the Green and Yellow Chemical. Combine it with the Alpha Chemical."
+Beta Chemical is a thing. The description is "A Chemical mixed by the Green and Yellow Chemical. "
 
-Delta Chemical is a thing. The description is "A Chemical formed by mixing in all the Chemicals. Are you crazy enough to put this in your body?"
+Delta Chemical is a thing. The description is "A Chemical formed by mixing in all the Chemicals. Something that you definitely can't drink. Maybe a shot or injection."
 
 
 [instead stuff]
@@ -188,7 +188,7 @@ Instead of talking to KLAW, say "You say hello to KLAW and he screams. The screa
 Instead of giving Code 532 to Robot 899:
 	move the Yellow Chemical to player;
 	Move the T Key to player;
-	say "Robot 899 smiles and gives you a high five.";
+	say "Robot 899 smiles and gives you a high five. She gives you the Yellow Chemical along with a special key.";
 	
 Instead of attacking robot 899 for the first time:
 	Increase the score by 2;
@@ -209,14 +209,9 @@ Instead of taking yellow chemical:
 
 Talking to is an action applying to one visible thing. Understand "talk to [someone]" or "converse with [someone]" as talking to.
 
-Combining it with is an action applying to two things.
+Combining it with is an action applying to two things. Understand "combine [something] with [something]" as combining it with.
 
-Understand "combine [Blue Chemical] with [Red Chemical]" as combining it with.
-
-Understand "combining [Yellow Chemical] with [Green Chemical]" as combining it with.
-
-The Injection Syringe is a thing in Titanium Box. The description is "A syringe used for injections. It's the size of a hot glue gun."
-
+Pouring it into is an action applying to two things. Understand "pour [something] into [something]" as pouring it into.
 
 Understand "Blue" as Blue Chemical.
 
@@ -264,9 +259,7 @@ Understand "glass" as broken glass.
 
 Understand "hit" and "kill"  as attacking. 
 
-Understand "mix" as combining it with.
-
-Understand "inject [Injection Syringe] into" as putting it on.
+Understand "mix [something] with" as combining it with.
 
 Understand "ride" as entering.
 
@@ -274,21 +267,19 @@ Understand "hope on" as entering.
 
 Understand "get on" as entering.
 
+Understand "webs" as spiderwebs.
+
+Understand "Robot" as Robot 899.
+
 Understand "Syringe" as Injection Syringe.
 	 
 Understand "glassware" as glass.
 
 Understand "look at" as examining.
 
-Understand "creature" as KLAW.
+Understand "creature" as KRAM.
 
 Understand "Syringe" as injection syringe.
-
-Understand "pour [Delta Chemical] into" as putting it on.
-
-Understand "pour [Delta Chemical] into" as putting it on.
-
-Understand "put [Delta Chemical] into" as putting it on.
 
 [more insteads]
 
@@ -298,53 +289,98 @@ Instead of combining Blue Chemical with Red Chemical:
 	move Alpha Chemical to player;
 	say "You merge these chemicals into each other by pouring them into a glass. Check your inventory to see what you got."
 	
+Instead of combining Red Chemical with Blue Chemical:
+	remove Blue Chemical from play; 
+	remove Red Chemical from play;
+	move Alpha Chemical to player;
+	say "You merge these chemicals into each other by pouring them into a glass. Check your inventory to see what you got."
+	
 Instead of combining Green Chemical with Yellow Chemical:
 	remove Yellow Chemical from play; 
 	remove Green Chemical from play;
 	move Beta Chemical to player;
-	say "You merge these chemicals into each other by pouring them into a class. Check your inventory to see what chemical you got."
+	say "You merge these chemicals into each other by pouring them into a glass. Check your inventory to see what chemical you got."
+	
+Instead of Combining Blue Chemical with Green Chemical:
+	say "Your conscience says that's the wrong chemical to mix it with."
+	
+Instead of Combining Blue Chemical with Yellow Chemical:
+	say "Your conscience says that's the wrong chemical to mix it with."
+	
+Instead of Combining Green Chemical with Blue Chemical:
+	say "Your conscience says that's the wrong chemical to mix it with."
+	
+Instead of Combining Green Chemical with Red Chemical:
+	say "Your conscience says that's the wrong chemical to mix it with."
+	
+Instead of Combining Yellow Chemical with Red Chemical: 
+	say "Your conscience says that's the wrong chemical to mix it with."
+	
+Instead of Combining Yellow Chemical with Blue Chemical:
+	say "Your conscience says that's the wrong chemical to mix it with."
+	
+Instead of Combining Red Chemical with Green Chemical:
+	say "Your conscience says that's the wrong chemical to mix it with."
+Instead of Combining Red Chemical with Yellow Chemical:
+	say "Your conscience says that's the wrong chemical to mix it with."
+	
+Instead of combining Yellow Chemical with Green Chemical:
+	remove Yellow Chemical from play; 
+	remove Green Chemical from play;
+	move Beta Chemical to player;
+	say "You merge these chemicals into each other by pouring them into a glass. Check your inventory to see what chemical you got."
 		
 Instead of combining Alpha Chemical with Beta Chemical:
 	remove Alpha Chemical from play;
 	remove Beta Chemical from play;
 	move Delta Chemical to player;
 	say "You take the new Alpha Chemical and the new Beta Chemical. Taking a deep breath you pour them into the same container. An orange chemical emerges. Check your inventory to see what chemical you got."
-		
-Instead of putting Delta Chemical on Injection Syringe:
-	say "You put the brightly orange chemical into the syringe. It's now ready for injection."
-
-Instead of putting Syringe on player:
-	remove Delta Chemical from play;
-	remove Syringe from play;
+	
+Instead of combining Beta Chemical with Alpha Chemical:
+	remove Alpha Chemical from play;
+	remove Beta Chemical from play;
+	move Delta Chemical to player;
+	say "You take the new Alpha Chemical and the new Beta Chemical. Taking a deep breath you pour them into the same container. An orange chemical emerges. Check your inventory to see what chemical you got."
+	
+Instead of pouring Delta Chemical into Injection Syringe:
 	move Restored Fingerprints to player;
-	say "You inject yourself with the Delta Chemical. You suddenly feel human and your fingerprints are restored."
+	remove Injection Syringe from play;
+	remove Delta Chemical from play;
+	say "Your pour the final chemical into the syringe. You know what to do now, so you inject yourself with the syringe. You feel weird for a minute and drop the syringe. You accidentally step on it and it disappears. Your body's fingerprints restore back to normal.";
+	 
+Instead of examining teleporter:
+	If player is not carrying Restored Fingerprints,
+	say "A teleporter. You know it's a teleporter because of how it looks: with a giant platform in the middle. There's a fingerprint scanner on it and near it it's labeled HUMANS ONLY. You'd better restore your fingerprints to get out of this place and pass the game.";
 
+
+Instead of examining teleporter:
+	If player is carrying Restored Fingerprints,
+	end the game in victory;
+	say "You put your fingerprints into the teleporter's finger scanner and the teleporter identifies you as a human. You go into the teleporter and you're taken outside to the NO TRESSPASSING OR GET SHOT sign. Victory!";
+	
 Instead of taking Blue Chemical:
-	say "You have the Blue Chemical. Now to find the other Chemicals.";
+	say "You have the Blue Chemical. Now to find the other Chemicals. Mix it with the Red Chemical.";
 
-Instead of entering KLAW:
+Instead of entering KRAM:
 	say "He is way too deadly for you to do some foolish thing like that."
 	
 Instead of taking blood:
 	say "You can't take that. And blood is disgusting. So why?"
 
 		
-Instead of attacking KLAW for the first time:
+Instead of attacking KRAM for the first time:
 If the player is not carrying the Uranium Rifle,
 end the game in death;
 If the player is not carrying the Uranium Rifle,
-say "You attampt to charge at KLAW and the creature takes notice at you. Being aggressive as he is, KLAW raises his claw and stabs you straight through your stomach. Shoot."
+say "You attempt to charge at KRAM and the creature takes notice at you. Being aggressive as he is, KRAM raises his claw and stabs you straight through your stomach. Shoot.";
 
-Instead of attacking KLAW for the first time:
-If the player is carrying the Uranium Rifle,
-say "You fire a bullet of Uranium at KLAW right in his stomach. He gets hurt and his mouth is open."
-
-Instead of attacking KLAW for the second time:
+Instead of attacking KRAM for the second time:
 If the player is carrying the Uranium Grenade,
-		remove KLAW from play;
+		remove KRAM from play;
+		increase the score by 3;
 		move the Blue Chemical to player;
 		move the N Key to player;
-	say "You throw a grenade into the open mouth of KLAW. He chokes and explodes. The blue chemical is right there and you take it, as well as a key.".
+	say "You fire a bullet of Uranium at KRAM right in his stomach. He gets hurt and his mouth is open. You throw a grenade into the open mouth of KRAM. He chokes and explodes. The blue chemical is right there and you take it, as well as a key. Check your inventory.";
 
 Instead of taking sign for the first time:
 	say "You take the small sign. At least you have a souvenir now!";
@@ -355,8 +391,15 @@ Instead of taking teleporter:
 
 Instead of taking Green Chemical:
 	Move Green Chemical to player;
-	  say "You take the Green Chemical and put it in your belt with the tray on it to store the chemicals.";
-
+	  say "You now have the Green Chemical.";
+	
+Instead of taking Uranium Rifle:
+	Move Uranium Rifle to player;
+	say "You take the Uranium Rifle. Hope you have the grenade."
+	
+Instead of taking Uranium Grenade:
+	Move Uranium Grenade to player;
+	say "You take the Uranium Grenade. Hopefully you have the Rifle as well."
 	
 [doors and keys]
 	
@@ -364,26 +407,13 @@ The N Door is a door. It is north of the Glassware Room. It is locked and lockab
 
 There's a key lock on this door."
 
-The E Door is a door. It is east of Nuclear Machinery. It is locked and lockable. The description is "Another titanium door, yet this one's labeled E. This place is so metallic. 
-
-A key lock is on the door."
-
 The S Door is a door. The S Door is south of the Center Of The Military Lab. It is locked and Lockable. The description of the S Door is "A door labeled S. It seems to be such a strong door. It looks indestructible… like one of those durable metal doors. Yeah. That's what it is. 
 
 There's a key lock on it."
 
-The W Door is a door. The W door is west of the Center of The Military Lab.
-It is locked and lockable. The description is "A door labeled W. This door is spiderweb encasted. 
-
-A key lock is on the door."
-
 The N Key unlocks the N door. The description of The N Key is "A key labeled N. It's encasted in a black finish. The paint seems scratch proof."
 
-The E Key is in  Big Safe. The E Key unlocks the E Door. The description is "A Key labeled E. It is a golden color."
-
 The S Key unlocks the S Door. The S Key is inside suitcase. The description of the S Key is "A basic silver key. It's labeled S."
-
-The W Key unlocks the W Door. The W Key is in the Nuclear Weapons Room. The description is "A key labeled W. Looks like a car key."
 
 The T Key is a thing. It unlocks the Titanium Box. The description is "A key made of titanium. It feels like a very durable metal key."
 
@@ -395,8 +425,6 @@ Rule for deciding whether all includes something:
 	
 Rule for printing a parser error when the latest parser error is the nothing to do error:
 	say "You're not an octopus. How are you gonna take all these items at once?" instead.
-
-
 
 
 [every turn rules]	
@@ -412,27 +440,17 @@ An every turn rule:
 		say "A general emerges out of the wall (SKETCHY!). He sees you and shoots you immediately."
 
 
-
-
 [NPCs]
 
-KLAW is a male animal in the West Room. KLAW can be attacked. KLAW holds the Blue Chemical. The description of KLAW is "KLAW seems to want to kill you. Are you going to run or fight? You think he'll beat the crap out of you if you use your hands. You might as well grab some kind of chemical weapon."
+KRAM is a male animal in the West Room. KRAM can be attacked. KRAM holds the Blue Chemical. The description of KLAW is "You think this monster will beat the crap out of you if you use your hands. You might as well grab some kind of chemical weapon."
 
 
-Robot 899 is a female animal in the East Room. Robot 899 holds the yellow chemical. Robot 899 holds the titanium key. The description of Robot 899 is "A Robot made of aluminum that is wearing a lab coat. Her body is like a human being's body. She's asking for a code. What code are you going to give her?"
+Robot 899 is a female animal in the East Room. Robot 899 holds the yellow chemical. Robot 899 holds the titanium key. The description of Robot 899 is "A Robot made of aluminum that is wearing a lab coat. Her body is like a human being's body."
 
 [how to pass the game]
 
 Restored Fingerprints is a thing. The description is "Your fingerprints have been restored to normal in their swervy lines."
 
-An every turn rule:
-If player is carrying the Restored Fingerprints,
-end the game in victory.
-
-An every turn rule:
-If player is carrying the Restored Fingerprints,
-say "Your newly restored fingerprints are looking humane. You run back to the teleporter and put your fingerprint on the scanner of the teleporter and the computer identifies you as a human. You step in the teleporter's bright white platform and you're taken outside to the Area 51 NO TRESSPASSING sign and the line.";
-	
 [anoter way to pass is by attacking the safe.]
 
 Instead of attacking the Big Safe:
