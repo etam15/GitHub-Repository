@@ -1,12 +1,14 @@
-"Area 51 HQ" by Eric Tam
+"Inside Area 51" by Eric Tam
+
+Release along with cover art.
 
 [introductory content]
 
 The maximum score is 10.
 
-When play begins: say "You wake up in the base of a military lab. Can't believe you're alive, huh? From a sign outside you realize you're in Area 51. You feel as if 4 small parts of your body has been extracted right out of you but you don't know what's happened. You don't know what's going on. But what you do know is that you need to replemish what you've lost and get the hell out of this base using chemicals. The sign outside Area 51 was already intimidating. Now you're in the base of the operation. The military will do anything to kill you. It seems that everybody's out and the security cameras are off… for now. No time to poop your pants. Get out of here. But, be VERY careful."
+When play begins: say "You wake up in the base of a military lab. Can't believe you're alive, huh? From a sign outside you realize you're in Area 51. You feel as if 4 small parts of your body has been extracted right out of you but you don't know what's happened. You don't know what's going on. But what you do know from science is that you need to replemish what you've lost and get the hell out of this base using chemicals because something about you is strange. Yeah, your fingerprints don't even look right. The sign outside Area 51 was already intimidating. Now you're in the base of the operation. The military will do anything to kill you. It seems that everybody's out and the security cameras are off… for now. No time to poop your pants. Get out of here. But, be VERY careful."
 
-The Description of the player is "You're a normal tan-skinned person (5'10, 180 lbs), wearing clothes that you don't feel like you normally wear. They must have given you them. The pockets on these are rather large. Maybe you could store a lot of things inside. There's a huge cut in your arm. Gross. Your fingerprints look odd."
+The Description of the player is "You're a normal tan-skinned person (5'10, 180 lbs), wearing clothes that you don't feel like you normally wear. They must have given you them. The pockets on these are rather large. Maybe you could store a lot of things inside. There's a huge cut in your arm."
 
 [first room]
 The Center of The Military Lab is a room. "You're in the center of the Military Lab. It's quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now? 
@@ -48,7 +50,7 @@ Glassware Room is a room. It is north of the Center of The Military Lab. "This r
 
 The Center of The Military Lab is back south. Another room seems to be up ahead."
 
-[things in rooms]
+[things in rooms, and After rules]
 
 
 The Big Safe is a closed openable container in the North Room. It is locked and lockable. The description is "This is one big black safe. There is a lock on it."
@@ -103,7 +105,7 @@ The Uranium Grenade is a thing in Nuclear Weapons room. The description is "It l
 
 The sign is a thing in the Creature Testing Facility. The description is "Dangerous creature(s) west. Use Caution."
 
-The Injection Syringe is a container in Titanium Box. The description is "A syringe used for injections. It's the size of a hot glue gun. There is a little passage encasted on the tube that says IN CASE OF GENETIC PROBLEMS WITHIN YOUR BODY, COMBINE TWO SUBSTANCES AT A TIME. ONCE DONE, YOU SHOULD KNOW WHAT TO DO."
+The Injection Syringe is a container in Titanium Box. The description is "A syringe used for injections. It's the size of a hot glue gun. How convenient! There is a little passage encasted on the tube that says IN CASE OF GENETIC PROBLEMS WITHIN YOUR BODY, COMBINE TWO SUBSTANCES AT A TIME. ONCE DONE, APPLY INTO SYRINGE. BEING HUMAN, YOU MUST KNOW WHAT TO DO."
 
 The Table is an enterable supporter in Nuclear Machinery. The description of the Table is "A table that seems like you CAN touch."
 
@@ -128,7 +130,7 @@ After examining KLAW for the first time:
 	say "KLAW looks at you and roars. You're so intimidated, as he stands at a solid 15 feet. He has the skin of a T-Rex and limbs like a very athletic animal. He has the face of a ninja turtle. The claws on his fingers and feet are covered in blood. A lab suit is in his mouth. He has the teeth of a mammoth shark."
 	
 After examining Robot 899 for the first time:
-	say "You see a female looking robot with the number 899 on her forehead. She senses your presence and asks for a code."
+	say "You see a female looking robot with the number 899 on her forehead. She senses your presence. She's asking for something you're carrying. What are you going to give the robot?"
 
 [chemicals]
 
@@ -181,14 +183,14 @@ Instead of attacking a door, say "What's the whole point of attacking a door? Yo
 
 Instead of touching Big Safe, say "This safe is so smooth and soft. "
 
-Instead of talking to Robot 899, say "You try to say hi to Robor 899 and she doesn't say anything."
+Instead of talking to Robot 899, say "You try to say hi to Robot 899 and she doesn't say anything."
 
 Instead of talking to KLAW, say "You say hello to KLAW and he screams. The scream is so intense your hair falls back and you look like a super saiyan."
 
 Instead of giving Code 532 to Robot 899:
 	move the Yellow Chemical to player;
 	Move the T Key to player;
-	say "Robot 899 smiles and gives you a high five. She gives you the Yellow Chemical along with a special key.";
+	say "You say the code and Robot 899 smiles and gives you a high five. She gives you the Yellow Chemical along with a special key.";
 	
 Instead of attacking robot 899 for the first time:
 	Increase the score by 2;
@@ -212,6 +214,8 @@ Talking to is an action applying to one visible thing. Understand "talk to [some
 Combining it with is an action applying to two things. Understand "combine [something] with [something]" as combining it with.
 
 Pouring it into is an action applying to two things. Understand "pour [something] into [something]" as pouring it into.
+
+Putting it into is an action applying to two things. Understand "pour [something] into [something]" as putting it into.
 
 Understand "Blue" as Blue Chemical.
 
@@ -348,12 +352,18 @@ Instead of pouring Delta Chemical into Injection Syringe:
 	remove Delta Chemical from play;
 	say "Your pour the final chemical into the syringe. You know what to do now, so you inject yourself with the syringe. You feel weird for a minute and drop the syringe. You accidentally step on it and it disappears. Your body's fingerprints restore back to normal.";
 	 
-Instead of examining teleporter:
+Instead of putting Delta Chemical into Injection Syringe:
+	move Restored Fingerprints to player;
+	remove Injection Syringe from play;
+	remove Delta Chemical from play;
+	say "Your pour the final chemical into the syringe. You know what to do now, so you inject yourself with the syringe. You feel weird for a minute and drop the syringe. You accidentally step on it and it disappears. Your body's fingerprints restore back to normal.";
+
+After examining teleporter for the first time:
 	If player is not carrying Restored Fingerprints,
 	say "A teleporter. You know it's a teleporter because of how it looks: with a giant platform in the middle. There's a fingerprint scanner on it and near it it's labeled HUMANS ONLY. You'd better restore your fingerprints to get out of this place and pass the game.";
 
 
-Instead of examining teleporter:
+Instead of entering teleporter:
 	If player is carrying Restored Fingerprints,
 	end the game in victory;
 	say "You put your fingerprints into the teleporter's finger scanner and the teleporter identifies you as a human. You go into the teleporter and you're taken outside to the NO TRESSPASSING OR GET SHOT sign. Victory!";
@@ -457,5 +467,6 @@ Instead of attacking the Big Safe:
 end the game in victory;
 
 Instead of attacking the Big Safe:
-say "You punch the Big Safe and your hand doesn't hurt. The safe is actually soft. From this the Big Safe shakes and explodes. A teleporter emerges from the back. Where might that lead to? To find out, you go inside. Amazingly enough you, appear outside of the keep away sign and your car is parked there. Yes!";
+say "You punch the Big Safe and your hand doesn't hurt. The safe is actually soft. You then grab your rifle and spam the Big Safe with bullets. From this the Big Safe shakes and explodes. A teleporter emerges from the back. Where might that lead to? To find out, you go inside. Amazingly enough you, appear outside of the keep away sign and your car is parked there. Yes!";
 		
+[I omitted Tray Belt and Ice Tongs because I couldn't get it to work so that the player needed these in order to take the chemicals. Secondly, I thought it didn't really help to put these items.]
