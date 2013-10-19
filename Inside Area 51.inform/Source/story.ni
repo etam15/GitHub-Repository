@@ -4,14 +4,14 @@ Release along with cover art.
 
 [introductory content]
 
-The maximum score is 10.
+The maximum score is 13.
 
 When play begins: say "You wake up in the base of a military lab. Can't believe you're alive, huh? From a sign outside you realize you're in Area 51. You feel as if 4 small parts of your body has been extracted right out of you but you don't know what's happened. You don't know what's going on. But what you do know from science is that you need to replemish what you've lost and get the hell out of this base using chemicals because something about you is strange. Yeah, your fingerprints don't even look right. The sign outside Area 51 was already intimidating. Now you're in the base of the operation. The military will do anything to kill you. It seems that everybody's out and the security cameras are off… for now. No time to poop your pants. Get out of here. But, be VERY careful."
 
 The Description of the player is "You're a normal tan-skinned person (5'10, 180 lbs), wearing clothes that you don't feel like you normally wear. They must have given you them. The pockets on these are rather large. Maybe you could store a lot of things inside. There's a huge cut in your arm."
 
 [first room]
-The Center of The Military Lab is a room. "You're in the center of the Military Lab. It's quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now? 
+The Center of The Military Lab is a room. "You're in the center of the Military Lab. It's quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here, considering a small amount of blood on the floor.  Where to go, chief?
 
 You may go in all four directions: N, S, W, and E."
 
@@ -34,7 +34,7 @@ West Room is a room. It is west of the Creature Testing facility. The descriptio
 
 The Creature Testing Facility is back east."
 
-Creature Testing Facility is a room. It is west of the Center of The Military Lab. "You're in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There's really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever's up ahead is probably gonna be something dangerous. 
+Creature Testing Facility is a room. It is west of the Center of The Military Lab. "You're in the Creature Testing Facility. But somehow this place is generally empty. This scares you a little. There's really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel)
 
 The Military Lab's Center is back east. Another room seems to be at the next west turn."
 
@@ -42,7 +42,7 @@ Nuclear Machinery is a room. It is east of the Center of The Military Lab. "You'
 
 The Center of The Military lab is back west. Another room seems to be at the next east turn."
 
-Nuclear Weapons Room is a room. The Nuclear Weapons Room is south of the S Door. "Goodness. So many weapons. There's something on the table. 
+Nuclear Weapons Room is a room. The Nuclear Weapons Room is south of the S Door. "You're in the Nuclear Weapons Room. This room is lukewarm, but you don't know where it's coming from.
 
 The Center of the Military Lab is back north. Another room seems to be further below."
 
@@ -69,6 +69,11 @@ The Ammo Box is an enterable supporter. It is in the North Room. The description
 
 The Left Chest is a closed openable container in the South Room. The description of Left Chest is "The left chest of the South Room. It's made out of iron."
 
+The Big Rack for Weapons is an enterable supporter in the Nuclear Weapons Room. The description is "A gigantic rack of weapons stands right here. But the odd thing is you don't see any weapons. Hmm."
+
+After examining the Big Rack for Weapons for the first time:
+	increase the score by 2;
+
 The Right Chest is a closed openable container in the South Room. The description of Right Chest is "The right chest of the South room. It is also made out of iron."
 
 The Code 654 is a thing inside the Right Chest. The Code 654 unlocks the Big Safe. The description of Code 654 is "A code written on a piece of paper. It says 654. Take it."
@@ -79,14 +84,20 @@ The big amount of spiderwebs is in the Creature Testing Facility. The descriptio
 
 The Titanium Box is a closed openable container in the Center of The Military Lab. It is locked and lockable. The description of the Titanium Box is "A Titanium Box the size of two size 11 shoeboxes stacked on top of each other. You have a gut feeling that whatever is inside is going to help you get out of the lab. Go further in the game to unlock it."
 
+The Set of Aluminum Walls is an enterable supporter in East Room. The description is "The walls of the East Room are aluminum encasted. Looks like that one movie where the walls were covered in aluminum foil."
+
 The beaker is a thing in Center of The Military Lab. The description is "a 500mL beaker. Take it."
 
 The teleporter is a thing in West Room. The description is "A teleporter. You know it's a teleporter because of how it looks: with a giant platform in the middle. There's a fingerprint scanner on it and near it it's labeled HUMANS ONLY. You'd better restore your fingerprints to get out of this place and pass the game."
 
+The SHARP Air Conditioner is in the Nuclear Machinery. It is an enterable supporter. The description is "You tell yourself you have never seen an air conditioner this big."
+
+After examining the SHARP Air Conditioner for the first time:
+	increase the score by 1;
 
 The Green Light is an enterable supporter in the Center of The Military Lab. The description of the Green Light is "A green light shines over your head. Looks like one of those lights they use at the dentists' offices."
 
-The blood is an enterable supporter in the Center of The Military Lab. The description of blood is "There's some blood stains along the floor, but nothing like a murder scene. The blood might have been yours?"
+The small amount of blood is an enterable supporter in the Center of The Military Lab. The description is "There's some blood stains along the floor, but nothing like a murder scene. The blood might have been yours?"
 
 The blue light is in the Glassware Room. The description is "The color of a light blue illuminates from the lights 20 feet above you. "
 
@@ -235,6 +246,8 @@ Understand "Delta" as Delta Chemical.
 
 Understand "Walls" as spiderwebs.
 
+Understand "Blood" as small amount of blood.
+
 Understand "hack" as entering.
 
 Understand "Fingerprints" as restored fingerprints.
@@ -258,6 +271,14 @@ Understand "bomb" as uranium grenade.
 Understand "grenade" as uranium grenade.
 
 Understand "monster" as KLAW.
+
+Understand "AC" as SHARP Air Conditioner.
+
+Understand "Air Conditioner" as SHARP Air Conditioner.
+
+Understand "rack" as Big Rack for Weapons.
+
+Understand "weapon rack" as Big Rack for Weapons.
 
 Understand "glass" as broken glass.
 

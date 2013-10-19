@@ -1,0 +1,3750 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x1073b730" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x1073b730" />
+  <item nodeId="node-0x1073b730">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+You wake up in the base of a military lab. Can&apos;t believe you&apos;re alive, huh? From a sign outside you realize you&apos;re in Area 51. You feel as if 4 small parts of your body has been extracted right out of you but you don&apos;t know what&apos;s happened. You don&apos;t know what&apos;s going on. But what you do know from science is that you need to replemish what you&apos;ve lost and get the hell out of this base using chemicals because something about you is strange. Yeah, your fingerprints don&apos;t even look right. The sign outside Area 51 was already intimidating. Now you&apos;re in the base of the operation. The military will do anything to kill you. It seems that everybody&apos;s out and the security cameras are off… for now. No time to poop your pants. Get out of here. But, be VERY careful.
+
+Inside Area 51
+An Interactive Fiction by Eric Tam
+Release 1 / Serial number 131018 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here, considering a small amount of blood on the floor.  Where to go, chief?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a small amount of blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="598">NO</temporary>
+    <children>
+      <child nodeId="node-0x1073b780" />
+      <child nodeId="node-0x10760710" />
+      <child nodeId="node-0x1071e230" />
+      <child nodeId="node-0x10760550" />
+      <child nodeId="node-0x1075fe70" />
+      <child nodeId="node-0x1073b7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1073b7d0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Nuclear Machinery
+You&apos;re in the Nuclear Machinery Room. You don&apos;t want to touch anything because everything looks so intimidating and so big. Even when you whisper the room echoes your voice.. There sure aren&apos;t any weapons around this room. The room is very big and filled with vehicles in a color that is quite unusual. It&apos;s also quite cold in here. You hear the sound of an air conditioner from far away but it&apos;s still quite loud.
+
+The Center of The Military lab is back west. Another room seems to be at the next east turn.
+
+You can see a SHARP Air Conditioner, Table (on which is a suitcase (closed)), an Alpha Tank and a Jeep here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="581">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760470" />
+      <child nodeId="node-0x10773600" />
+      <child nodeId="node-0x10772670" />
+      <child nodeId="node-0x1286ff90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1286ff90">
+    <command xml:space="preserve">open suicase</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x1286ffe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1286ffe0">
+    <command xml:space="preserve">open suitcase</command>
+    <result xml:space="preserve">You open the suitcase, revealing a S Key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x12870030" />
+    </children>
+  </item>
+  <item nodeId="node-0x12870030">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x128753a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x128753a0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a W Door, a Titanium Box (closed), a Green Light, an Ice Tongs, a Chemical Tray Belt and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x107740e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107740e0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the S Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10774130" />
+    </children>
+  </item>
+  <item nodeId="node-0x10774130">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">Which do you mean, the S Door or the W Door?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10774180" />
+    </children>
+  </item>
+  <item nodeId="node-0x10774180">
+    <command xml:space="preserve">s door</command>
+    <result xml:space="preserve">(with the S Key)
+You unlock the S Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0xf8b5520" />
+    </children>
+  </item>
+  <item nodeId="node-0xf8b5520">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the S Door)
+
+Nuclear Weapons Room
+Goodness. So many weapons. There&apos;s something on the table.
+
+The Center of the Military Lab is back north. Another room seems to be further below.
+
+You can see a S Door, an Uranium Rifle, an Uranium Grenade and a W Key here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0xf8b5570" />
+    </children>
+  </item>
+  <item nodeId="node-0xf8b5570">
+    <command xml:space="preserve">take rifle</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0xf8b56a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf8b56a0">
+    <command xml:space="preserve">take grenade</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772bd0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a W Door, a Titanium Box (closed), a Green Light, an Ice Tongs, a Chemical Tray Belt and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772c20">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the W Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772c70" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772c70">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the W Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772cc0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Nuclear Weapons Room
+Goodness. So many weapons. There&apos;s something on the table.
+
+The Center of the Military Lab is back north. Another room seems to be further below.
+
+You can see a S Door and a W Key here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772d10">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">(the W Key)
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772d80" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772d80">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a W Door, a Titanium Box (closed), a Green Light, an Ice Tongs, a Chemical Tray Belt and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772df0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772df0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the W Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0xf8b55e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf8b55e0">
+    <command xml:space="preserve">unlock w door</command>
+    <result xml:space="preserve">What do you want to unlock the W Door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0xf8b5630" />
+    </children>
+  </item>
+  <item nodeId="node-0xf8b5630">
+    <command xml:space="preserve">w key</command>
+    <result xml:space="preserve">You unlock the W Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772fe0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the W Door)
+
+Creature Testing facility
+You&apos;re in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever&apos;s up ahead is probably gonna be something dangerous.
+
+The Military Lab&apos;s Center is back east. Another room seems to be at the next west turn.
+
+You can see a W Door, a big amount of spiderwebs and a sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10773050" />
+    </children>
+  </item>
+  <item nodeId="node-0x10773050">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+West Room
+This room is quite the room indeed. It has such a high ceiling with walls made of durable lead (imagine how heavy that is).
+
+The Creature Testing Facility is back north
+
+You can see Lead, a teleporter and KLAW here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x107730c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107730c0">
+    <command xml:space="preserve">attack KLAW</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10773130" />
+    </children>
+  </item>
+  <item nodeId="node-0x10773130">
+    <command xml:space="preserve">attack KLAW</command>
+    <result xml:space="preserve">You throw a grenade into the open mouth of KLAW. He chokes and explodes. The blue chemical is right there and you take it, as well as a key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x107731a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107731a0">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:
+  a N key
+  a Blue Chemical
+  a W Key
+  an Uranium Grenade
+  an Uranium Rifle
+  a S Key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10773210" />
+    </children>
+  </item>
+  <item nodeId="node-0x10773210">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Creature Testing facility
+You&apos;re in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever&apos;s up ahead is probably gonna be something dangerous.
+
+The Military Lab&apos;s Center is back east. Another room seems to be at the next west turn.
+
+You can see a W Door, a big amount of spiderwebs and a sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10773280" />
+    </children>
+  </item>
+  <item nodeId="node-0x10773280">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a W Door, a Titanium Box (closed), a Green Light, an Ice Tongs, a Chemical Tray Belt and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x107732f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107732f0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Glassware Room
+This room is not very big. It&apos;s full of glass containers. The room is of a tinted blue.
+
+The Center of The Military Lab is back south. Another room seems to be up ahead.
+
+You can see a N Door, a blue light, a large number of glass containers, a Test Tube Rack and a Broken Glass here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x107733a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107733a0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening the N Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10773410" />
+    </children>
+  </item>
+  <item nodeId="node-0x10773410">
+    <command xml:space="preserve">unlock n door</command>
+    <result xml:space="preserve">What do you want to unlock the N Door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10773480" />
+    </children>
+  </item>
+  <item nodeId="node-0x10773480">
+    <command xml:space="preserve">n key</command>
+    <result xml:space="preserve">You unlock the N Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772e60" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772e60">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening the N Door)
+
+North Room
+You&apos;ve reached the north room. It&apos;s covered with titanium walls in its 20 feet by 20 feet entirity. The floor is made out of rubber.
+
+The Glassware Room is back south.
+
+You can see a N Door, a Big Safe (closed) and an Ammo Box here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10773730" />
+    </children>
+  </item>
+  <item nodeId="node-0x10773730">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Glassware Room
+This room is not very big. It&apos;s full of glass containers. The room is of a tinted blue.
+
+The Center of The Military Lab is back south. Another room seems to be up ahead.
+
+You can see a N Door, a blue light, a large number of glass containers, a Test Tube Rack and a Broken Glass here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x107737a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107737a0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a W Door, a Titanium Box (closed), a Green Light, an Ice Tongs, a Chemical Tray Belt and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772ef0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Nuclear Weapons Room
+Goodness. So many weapons. There&apos;s something on the table.
+
+The Center of the Military Lab is back north. Another room seems to be further below.
+
+You can see a S Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772f60">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+South Room
+You&apos;re in the South Room. You feel radiation emitting from small Alpha Ray Guns in the distance. You can&apos;t reach them, but you can sense them. You wonder why there aren&apos;t really any things around there. Just two chests standing there.
+
+The Nuclear Weapons Room is back north.
+
+You can see a Left Chest (closed) and a Right Chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772760" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772760">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">Which do you mean, the Left Chest or the Right Chest?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x107727d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107727d0">
+    <command xml:space="preserve">left chest</command>
+    <result xml:space="preserve">You open the Left Chest, revealing a Green Chemical.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772840" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772840">
+    <command xml:space="preserve">take chemical</command>
+    <result xml:space="preserve">(the Green Chemical)
+You don&apos;t have anything to hold the chemical.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x107728b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107728b0">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:
+  a N key
+  a Blue Chemical
+  a W Key
+  an Uranium Grenade
+  an Uranium Rifle
+  a S Key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772920" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772920">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Nuclear Weapons Room
+Goodness. So many weapons. There&apos;s something on the table.
+
+The Center of the Military Lab is back north. Another room seems to be further below.
+
+You can see a S Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772990" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772990">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a W Door, a Titanium Box (closed), a Green Light, an Ice Tongs, a Chemical Tray Belt and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772a00">
+    <command xml:space="preserve">take belt</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772a70" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772a70">
+    <command xml:space="preserve">take ice tongs</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772ae0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Nuclear Weapons Room
+Goodness. So many weapons. There&apos;s something on the table.
+
+The Center of the Military Lab is back north. Another room seems to be further below.
+
+You can see a S Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772b50">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+South Room
+You&apos;re in the South Room. You feel radiation emitting from small Alpha Ray Guns in the distance. You can&apos;t reach them, but you can sense them. You wonder why there aren&apos;t really any things around there. Just two chests standing there.
+
+The Nuclear Weapons Room is back north.
+
+You can see a Left Chest (in which is a Green Chemical) and a Right Chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x107724b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107724b0">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">Which do you mean, the Left Chest or the Right Chest?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772520" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772520">
+    <command xml:space="preserve">left chest</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772590" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772590">
+    <command xml:space="preserve">take green chemical</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="438">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772600" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772600">
+    <command xml:space="preserve">take green chemical</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="437">YES</temporary>
+  </item>
+  <item nodeId="node-0x10772670">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+East Room
+You&apos;re in the the East Room. It&apos;s colder than usual in here. There&apos;s smoke coming from what looks to be a robot. Yeah. There is a big robot holding the yellow chemical, which is what the smoke is coming out of. The walls of the East Room are made of aluminum! Interesting.
+
+The Nuclear Machinery room is back west.
+
+You can see Robot 899 here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="578">YES</temporary>
+    <children>
+      <child nodeId="node-0x107734f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107734f0">
+    <command xml:space="preserve">x walls</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="578">YES</temporary>
+    <children>
+      <child nodeId="node-0x10773540" />
+    </children>
+  </item>
+  <item nodeId="node-0x10773540">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Nuclear Machinery
+You&apos;re in the Nuclear Machinery Room. You don&apos;t want to touch anything because everything looks so intimidating and so big. Even when you whisper the room echoes your voice.. There sure aren&apos;t any weapons around this room. The room is very big and filled with vehicles in a color that is quite unusual. It&apos;s also quite cold in here. You hear the sound of an air conditioner from far away but it&apos;s still quite loud.
+
+The Center of The Military lab is back west. Another room seems to be at the next east turn.
+
+You can see a SHARP Air Conditioner, Table (on which is a suitcase (closed)), an Alpha Tank and a Jeep here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="578">YES</temporary>
+    <children>
+      <child nodeId="node-0x10773590" />
+    </children>
+  </item>
+  <item nodeId="node-0x10773590">
+    <command xml:space="preserve">x ac</command>
+    <result xml:space="preserve">You tell yourself you have never seen an air conditioner this big.
+
+You tell yourself you have never seen an air conditioner this big.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="577">YES</temporary>
+  </item>
+  <item nodeId="node-0x10773600">
+    <command xml:space="preserve">open suitcase</command>
+    <result xml:space="preserve">You open the suitcase, revealing a S Key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10773670" />
+    </children>
+  </item>
+  <item nodeId="node-0x10773670">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x107736e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107736e0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076b410" />
+      <child nodeId="node-0x10772010" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772010">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the S Key)
+You unlock the S Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772080" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772080">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the S Door)
+
+Nuclear Weapons Room
+Goodness. So many weapons. There&apos;s something on the table.
+
+The Center of the Military Lab is back north. Another room seems to be further below.
+
+You can see a S Door, an Uranium Rifle and an Uranium Grenade here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x107720f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107720f0">
+    <command xml:space="preserve">take gun</command>
+    <result xml:space="preserve">You take the Uranium Rifle. Hope you have the grenade.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772160" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772160">
+    <command xml:space="preserve">take bomb</command>
+    <result xml:space="preserve">You take the Uranium Grenade. Hopefully you have the Rifle as well.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x107721d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107721d0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+South Room
+You&apos;re in the South Room. You feel radiation emitting from small Alpha Ray Guns in the distance. You can&apos;t reach them, but you can sense them. You wonder why there aren&apos;t really any things around there. Just two chests standing there.
+
+The Nuclear Weapons Room is back north.
+
+You can see a Left Chest (closed) and a Right Chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10772240" />
+    </children>
+  </item>
+  <item nodeId="node-0x10772240">
+    <command xml:space="preserve">open left</command>
+    <result xml:space="preserve">You open the Left Chest, revealing a Green Chemical.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x107722b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107722b0">
+    <command xml:space="preserve">take green</command>
+    <result xml:space="preserve">You now have the Green Chemical.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10771cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10771cd0">
+    <command xml:space="preserve">open right</command>
+    <result xml:space="preserve">You open the Right Chest, revealing a Code 654 and a Code 532.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10771d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x10771d40">
+    <command xml:space="preserve">take 654</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10771db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10771db0">
+    <command xml:space="preserve">take 532</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10771e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x10771e20">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10771e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x10771e90">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Nuclear Weapons Room
+Goodness. So many weapons. There&apos;s something on the table.
+
+The Center of the Military Lab is back north. Another room seems to be further below.
+
+You can see a S Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10771f00" />
+    </children>
+  </item>
+  <item nodeId="node-0x10771f00">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10770570" />
+    </children>
+  </item>
+  <item nodeId="node-0x10770570">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Creature Testing facility
+You&apos;re in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever&apos;s up ahead is probably gonna be something dangerous.
+
+The Military Lab&apos;s Center is back east. Another room seems to be at the next west turn.
+
+You can see a big amount of spiderwebs and a sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x107705c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107705c0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+West Room
+This room is quite the room indeed. It has such a high ceiling with walls made of durable lead (imagine how heavy that is).
+
+The Creature Testing Facility is back east.
+
+You can see Lead, a teleporter and KRAM here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10770630" />
+    </children>
+  </item>
+  <item nodeId="node-0x10770630">
+    <command xml:space="preserve">attack KRAM</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x107706a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107706a0">
+    <command xml:space="preserve">attack KRAM</command>
+    <result xml:space="preserve">You fire a bullet of Uranium at KRAM right in his stomach. He gets hurt and his mouth is open. You throw a grenade into the open mouth of KRAM. He chokes and explodes. The blue chemical is right there and you take it, as well as a key. Check your inventory.
+
+[Your score has just gone up by three points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10770710" />
+    </children>
+  </item>
+  <item nodeId="node-0x10770710">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Creature Testing facility
+You&apos;re in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever&apos;s up ahead is probably gonna be something dangerous.
+
+The Military Lab&apos;s Center is back east. Another room seems to be at the next west turn.
+
+You can see a big amount of spiderwebs and a sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10770780" />
+    </children>
+  </item>
+  <item nodeId="node-0x10770780">
+    <command xml:space="preserve">ast</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x107707f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107707f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10770860" />
+    </children>
+  </item>
+  <item nodeId="node-0x10770860">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x107708d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107708d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Glassware Room
+This room is not very big. It&apos;s full of glass containers. The room is of a tinted blue.
+
+The Center of The Military Lab is back south. Another room seems to be up ahead.
+
+You can see a N Door, a blue light, a large number of glass containers, a Test Tube Rack and a Broken Glass here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10770940" />
+    </children>
+  </item>
+  <item nodeId="node-0x10770940">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the N Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x107709b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107709b0">
+    <command xml:space="preserve">unlock n door with n key</command>
+    <result xml:space="preserve">You unlock the N Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10770a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x10770a20">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening the N Door)
+
+North Room
+You&apos;ve reached the north room. It&apos;s covered with titanium walls in its 20 feet by 20 feet entirity. The floor is made out of rubber.
+
+The Glassware Room is back south.
+
+You can see a N Door, a Big Safe (closed) and an Ammo Box here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10770a90" />
+    </children>
+  </item>
+  <item nodeId="node-0x10770a90">
+    <command xml:space="preserve">unlock big safe</command>
+    <result xml:space="preserve">What do you want to unlock the Big Safe with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10770b00" />
+    </children>
+  </item>
+  <item nodeId="node-0x10770b00">
+    <command xml:space="preserve">code 654</command>
+    <result xml:space="preserve">You unlock the Big Safe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x10770b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x10770b70">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the Big Safe, revealing Red Chemical.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076f980" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076f980">
+    <command xml:space="preserve">take red</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076f9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076f9d0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Glassware Room
+This room is not very big. It&apos;s full of glass containers. The room is of a tinted blue.
+
+The Center of The Military Lab is back south. Another room seems to be up ahead.
+
+You can see a N Door, a blue light, a large number of glass containers, a Test Tube Rack and a Broken Glass here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076fa40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076fa40">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076fab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076fab0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Nuclear Machinery
+You&apos;re in the Nuclear Machinery Room. You don&apos;t want to touch anything because everything looks so intimidating and so big. Even when you whisper the room echoes your voice.. There sure aren&apos;t any weapons around this room. The room is very big and filled with vehicles in a color that is quite unusual. It&apos;s also quite cold in here. You hear the sound of an air conditioner from far away but it&apos;s still quite loud.
+
+The Center of The Military lab is back west. Another room seems to be at the next east turn.
+
+You can see Table (on which is a suitcase (empty)), an Alpha Tank and a Jeep here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076fb20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076fb20">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+East Room
+You&apos;re in the the East Room. It&apos;s colder than usual in here. There&apos;s smoke coming from what looks to be a robot. Yeah. There is a big robot holding the yellow chemical, which is what the smoke is coming out of. The walls of the East Room are made of aluminum! Interesting.
+
+The Nuclear Machinery room is back west.
+
+You can see Robot 899 here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076fb90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076fb90">
+    <command xml:space="preserve">x robor</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076fc00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076fc00">
+    <command xml:space="preserve">x robot</command>
+    <result xml:space="preserve">A Robot made of aluminum that is wearing a lab coat. Her body is like a human being&apos;s body.
+
+You see a female looking robot with the number 899 on her forehead. She senses your presence and asks for a code.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076fc70" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076fc70">
+    <command xml:space="preserve">give code 532</command>
+    <result xml:space="preserve">(to Robot 899)
+Robot 899 smiles and gives you a high five. She gives you the Yellow Chemical along with a special key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076fce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076fce0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Nuclear Machinery
+You&apos;re in the Nuclear Machinery Room. You don&apos;t want to touch anything because everything looks so intimidating and so big. Even when you whisper the room echoes your voice.. There sure aren&apos;t any weapons around this room. The room is very big and filled with vehicles in a color that is quite unusual. It&apos;s also quite cold in here. You hear the sound of an air conditioner from far away but it&apos;s still quite loud.
+
+The Center of The Military lab is back west. Another room seems to be at the next east turn.
+
+You can see Table (on which is a suitcase (empty)), an Alpha Tank and a Jeep here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076fd50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076fd50">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076fdc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076fdc0">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076fe30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076fe30">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Glassware Room
+This room is not very big. It&apos;s full of glass containers. The room is of a tinted blue.
+
+The Center of The Military Lab is back south. Another room seems to be up ahead.
+
+You can see a N Door, a blue light, a large number of glass containers, a Test Tube Rack and a Broken Glass here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076fea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076fea0">
+    <command xml:space="preserve">combine red with blue</command>
+    <result xml:space="preserve">(the Blue Chemical)
+You merge these chemicals into each other by pouring them into a glass. Check your inventory to see what you got.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076da00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076da00">
+    <command xml:space="preserve">combine green with yellow</command>
+    <result xml:space="preserve">You merge these chemicals into each other by pouring them into a glass. Check your inventory to see what chemical you got.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076da70" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076da70">
+    <command xml:space="preserve">combine alpha with beta</command>
+    <result xml:space="preserve">You take the new Alpha Chemical and the new Beta Chemical. Taking a deep breath you pour them into the same container. An orange chemical emerges. Check your inventory to see what chemical you got.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076dae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076dae0">
+    <command xml:space="preserve">unlock titanium box</command>
+    <result xml:space="preserve">What do you want to unlock the Titanium Box with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076db50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076db50">
+    <command xml:space="preserve">t key</command>
+    <result xml:space="preserve">You unlock the Titanium Box.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076dbc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076dbc0">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open the Titanium Box, revealing an Injection Syringe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076dc30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076dc30">
+    <command xml:space="preserve">take syringe</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076dca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076dca0">
+    <command xml:space="preserve">pour delta chemical into syringe</command>
+    <result xml:space="preserve">Your pour the final chemical into the syringe. You know what to do now, so you inject yourself with the syringe. You feel weird for a minute and drop the syringe. You accidentally step on it and it disappears. Your body&apos;s fingerprints restore back to normal.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076b190" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076b190">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076b1e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076b1e0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076b250" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076b250">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Creature Testing facility
+You&apos;re in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever&apos;s up ahead is probably gonna be something dangerous.
+
+The Military Lab&apos;s Center is back east. Another room seems to be at the next west turn.
+
+You can see a big amount of spiderwebs and a sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076b2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076b2c0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+West Room
+This room is quite the room indeed. It has such a high ceiling with walls made of durable lead (imagine how heavy that is).
+
+The Creature Testing Facility is back east.
+
+You can see Lead and a teleporter here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076b330" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076b330">
+    <command xml:space="preserve">x teleporter</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="561">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076b3a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076b3a0">
+    <command xml:space="preserve">enter teleporter</command>
+    <result xml:space="preserve">You put your fingerprints into the teleporter&apos;s finger scanner and the teleporter identifies you as a human. You go into the teleporter and you&apos;re taken outside to the NO TRESSPASSING OR GET SHOT sign. Victory!
+
+
+
+    *** You have won ***
+
+
+In that game you scored 3 out of a possible 10, in 54 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="560">YES</temporary>
+  </item>
+  <item nodeId="node-0x1076b410">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the S Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076b480" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076b480">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the S Key)
+You unlock the S Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076b4f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076b4f0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the S Door)
+
+Nuclear Weapons Room
+Goodness. So many weapons. There&apos;s something on the table.
+
+The Center of the Military Lab is back north. Another room seems to be further below.
+
+You can see a S Door, an Uranium Rifle and an Uranium Grenade here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x1076b560" />
+    </children>
+  </item>
+  <item nodeId="node-0x1076b560">
+    <command xml:space="preserve">take gun</command>
+    <result xml:space="preserve">You take the Uranium Rifle. Hope you have the grenade.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10765200" />
+    </children>
+  </item>
+  <item nodeId="node-0x10765200">
+    <command xml:space="preserve">take bomb</command>
+    <result xml:space="preserve">You take the Uranium Grenade. Hopefully you have the Rifle as well.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10765270" />
+    </children>
+  </item>
+  <item nodeId="node-0x10765270">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+South Room
+You&apos;re in the South Room. You feel radiation emitting from small Alpha Ray Guns in the distance. You can&apos;t reach them, but you can sense them. You wonder why there aren&apos;t really any things around there. Just two chests standing there.
+
+The Nuclear Weapons Room is back north.
+
+You can see a Left Chest (closed) and a Right Chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107652e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107652e0">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">Which do you mean, the Left Chest or the Right Chest?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10765350" />
+    </children>
+  </item>
+  <item nodeId="node-0x10765350">
+    <command xml:space="preserve">left</command>
+    <result xml:space="preserve">You open the Left Chest, revealing a Green Chemical.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107653c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107653c0">
+    <command xml:space="preserve">take green</command>
+    <result xml:space="preserve">You now have the Green Chemical.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10764480" />
+    </children>
+  </item>
+  <item nodeId="node-0x10764480">
+    <command xml:space="preserve">open right</command>
+    <result xml:space="preserve">You open the Right Chest, revealing a Code 654 and a Code 532.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107644f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107644f0">
+    <command xml:space="preserve">take 654</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10764560" />
+    </children>
+  </item>
+  <item nodeId="node-0x10764560">
+    <command xml:space="preserve">take 532</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107645d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107645d0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Nuclear Weapons Room
+Goodness. So many weapons. There&apos;s something on the table.
+
+The Center of the Military Lab is back north. Another room seems to be further below.
+
+You can see a S Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10764640" />
+    </children>
+  </item>
+  <item nodeId="node-0x10764640">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107646b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107646b0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Creature Testing facility
+You&apos;re in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever&apos;s up ahead is probably gonna be something dangerous.
+
+The Military Lab&apos;s Center is back east. Another room seems to be at the next west turn.
+
+You can see a big amount of spiderwebs and a sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10764720" />
+    </children>
+  </item>
+  <item nodeId="node-0x10764720">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+West Room
+This room is quite the room indeed. It has such a high ceiling with walls made of durable lead (imagine how heavy that is).
+
+The Creature Testing Facility is back east.
+
+You can see Lead, a teleporter and KRAM here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10764790" />
+    </children>
+  </item>
+  <item nodeId="node-0x10764790">
+    <command xml:space="preserve">attack KRAM</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10764800" />
+    </children>
+  </item>
+  <item nodeId="node-0x10764800">
+    <command xml:space="preserve">attack KRAM</command>
+    <result xml:space="preserve">You fire a bullet of Uranium at KRAM right in his stomach. He gets hurt and his mouth is open. You throw a grenade into the open mouth of KRAM. He chokes and explodes. The blue chemical is right there and you take it, as well as a key. Check your inventory.
+
+[Your score has just gone up by three points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10764870" />
+    </children>
+  </item>
+  <item nodeId="node-0x10764870">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Creature Testing facility
+You&apos;re in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever&apos;s up ahead is probably gonna be something dangerous.
+
+The Military Lab&apos;s Center is back east. Another room seems to be at the next west turn.
+
+You can see a big amount of spiderwebs and a sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107648e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107648e0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10764950" />
+    </children>
+  </item>
+  <item nodeId="node-0x10764950">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Glassware Room
+This room is not very big. It&apos;s full of glass containers. The room is of a tinted blue.
+
+The Center of The Military Lab is back south. Another room seems to be up ahead.
+
+You can see a N Door, a blue light, a large number of glass containers, a Test Tube Rack and a Broken Glass here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107649c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107649c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the N Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10764090" />
+    </children>
+  </item>
+  <item nodeId="node-0x10764090">
+    <command xml:space="preserve">unlock n door</command>
+    <result xml:space="preserve">What do you want to unlock the N Door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107640e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107640e0">
+    <command xml:space="preserve">n key</command>
+    <result xml:space="preserve">You unlock the N Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10764150" />
+    </children>
+  </item>
+  <item nodeId="node-0x10764150">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening the N Door)
+
+North Room
+You&apos;ve reached the north room. It&apos;s covered with titanium walls in its 20 feet by 20 feet entirity. The floor is made out of rubber.
+
+The Glassware Room is back south.
+
+You can see a N Door, a Big Safe (closed) and an Ammo Box here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107641c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107641c0">
+    <command xml:space="preserve">unlock big safe</command>
+    <result xml:space="preserve">What do you want to unlock the Big Safe with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10764230" />
+    </children>
+  </item>
+  <item nodeId="node-0x10764230">
+    <command xml:space="preserve">code 654</command>
+    <result xml:space="preserve">You unlock the Big Safe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107628d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107628d0">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the Big Safe, revealing Red Chemical.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10762920" />
+    </children>
+  </item>
+  <item nodeId="node-0x10762920">
+    <command xml:space="preserve">take red</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10762990" />
+    </children>
+  </item>
+  <item nodeId="node-0x10762990">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Glassware Room
+This room is not very big. It&apos;s full of glass containers. The room is of a tinted blue.
+
+The Center of The Military Lab is back south. Another room seems to be up ahead.
+
+You can see a N Door, a blue light, a large number of glass containers, a Test Tube Rack and a Broken Glass here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10762a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x10762a00">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10762a70" />
+    </children>
+  </item>
+  <item nodeId="node-0x10762a70">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Nuclear Machinery
+You&apos;re in the Nuclear Machinery Room. You don&apos;t want to touch anything because everything looks so intimidating and so big. Even when you whisper the room echoes your voice.. There sure aren&apos;t any weapons around this room. The room is very big and filled with vehicles in a color that is quite unusual. It&apos;s also quite cold in here. You hear the sound of an air conditioner from far away but it&apos;s still quite loud.
+
+The Center of The Military lab is back west. Another room seems to be at the next east turn.
+
+You can see Table (on which is a suitcase (empty)), an Alpha Tank and a Jeep here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10762ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10762ae0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+East Room
+You&apos;re in the the East Room. It&apos;s colder than usual in here. There&apos;s smoke coming from what looks to be a robot. Yeah. There is a big robot holding the yellow chemical, which is what the smoke is coming out of. The walls of the East Room are made of aluminum! Interesting.
+
+The Nuclear Machinery room is back west.
+
+You can see Robot 899 here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10762020" />
+    </children>
+  </item>
+  <item nodeId="node-0x10762020">
+    <command xml:space="preserve">give robot code 532</command>
+    <result xml:space="preserve">Robot 899 smiles and gives you a high five. She gives you the Yellow Chemical along with a special key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10762090" />
+    </children>
+  </item>
+  <item nodeId="node-0x10762090">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:
+  a T Key
+  a yellow chemical
+  Red Chemical
+  a N key
+  a Blue Chemical
+  a Code 532
+  a Code 654
+  a Green Chemical
+  an Uranium Grenade
+  an Uranium Rifle
+  a S Key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10762100" />
+    </children>
+  </item>
+  <item nodeId="node-0x10762100">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Nuclear Machinery
+You&apos;re in the Nuclear Machinery Room. You don&apos;t want to touch anything because everything looks so intimidating and so big. Even when you whisper the room echoes your voice.. There sure aren&apos;t any weapons around this room. The room is very big and filled with vehicles in a color that is quite unusual. It&apos;s also quite cold in here. You hear the sound of an air conditioner from far away but it&apos;s still quite loud.
+
+The Center of The Military lab is back west. Another room seems to be at the next east turn.
+
+You can see Table (on which is a suitcase (empty)), an Alpha Tank and a Jeep here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10762170" />
+    </children>
+  </item>
+  <item nodeId="node-0x10762170">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107621e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107621e0">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10762250" />
+    </children>
+  </item>
+  <item nodeId="node-0x10762250">
+    <command xml:space="preserve">unlock box with t key</command>
+    <result xml:space="preserve">You unlock the Titanium Box.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10761380" />
+    </children>
+  </item>
+  <item nodeId="node-0x10761380">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open the Titanium Box, revealing an Injection Syringe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107613d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107613d0">
+    <command xml:space="preserve">take syringe</command>
+    <result xml:space="preserve">Taken.
+
+You hear cold, heavy footsteps approaching your way. Doesn&apos;t sound good.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10761420" />
+    </children>
+  </item>
+  <item nodeId="node-0x10761420">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Glassware Room
+This room is not very big. It&apos;s full of glass containers. The room is of a tinted blue.
+
+The Center of The Military Lab is back south. Another room seems to be up ahead.
+
+You can see a N Door, a blue light, a large number of glass containers, a Test Tube Rack and a Broken Glass here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10761490" />
+    </children>
+  </item>
+  <item nodeId="node-0x10761490">
+    <command xml:space="preserve">combine red with blue</command>
+    <result xml:space="preserve">(the Blue Chemical)
+You merge these chemicals into each other by pouring them into a glass. Check your inventory to see what you got.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10761500" />
+    </children>
+  </item>
+  <item nodeId="node-0x10761500">
+    <command xml:space="preserve">combine yellow with green</command>
+    <result xml:space="preserve">You merge these chemicals into each other by pouring them into a glass. Check your inventory to see what chemical you got.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10761570" />
+    </children>
+  </item>
+  <item nodeId="node-0x10761570">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:
+  Beta Chemical
+  Alpha Chemical
+  an Injection Syringe
+  a T Key
+  a N key
+  a Code 532
+  a Code 654
+  an Uranium Grenade
+  an Uranium Rifle
+  a S Key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107615e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107615e0">
+    <command xml:space="preserve">combine alpha with beta</command>
+    <result xml:space="preserve">You take the new Alpha Chemical and the new Beta Chemical. Taking a deep breath you pour them into the same container. An orange chemical emerges. Check your inventory to see what chemical you got.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10761650" />
+    </children>
+  </item>
+  <item nodeId="node-0x10761650">
+    <command xml:space="preserve">pour delta chemical into syringe</command>
+    <result xml:space="preserve">Your pour the final chemical into the syringe. You know what to do now, so you inject yourself with the syringe. You feel weird for a minute and drop the syringe. You accidentally step on it and it disappears. Your body&apos;s fingerprints restore back to normal.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107616c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107616c0">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:
+  Restored Fingerprints
+  a T Key
+  a N key
+  a Code 532
+  a Code 654
+  an Uranium Grenade
+  an Uranium Rifle
+  a S Key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10761730" />
+    </children>
+  </item>
+  <item nodeId="node-0x10761730">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x107617a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107617a0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (empty), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10761810" />
+    </children>
+  </item>
+  <item nodeId="node-0x10761810">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Creature Testing facility
+You&apos;re in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever&apos;s up ahead is probably gonna be something dangerous.
+
+The Military Lab&apos;s Center is back east. Another room seems to be at the next west turn.
+
+You can see a big amount of spiderwebs and a sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760a60" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760a60">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+West Room
+This room is quite the room indeed. It has such a high ceiling with walls made of durable lead (imagine how heavy that is).
+
+The Creature Testing Facility is back east.
+
+You can see Lead and a teleporter here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760ad0">
+    <command xml:space="preserve">x teleporter</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760b40">
+    <command xml:space="preserve">x teleporter</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760bb0">
+    <command xml:space="preserve">x teleporter</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760c20">
+    <command xml:space="preserve">x teleporter</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760c90" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760c90">
+    <command xml:space="preserve">examine teleporter</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760d00" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760d00">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760d70">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760de0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760e50" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760e50">
+    <command xml:space="preserve">sd</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760ec0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760f30" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760f30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760fa0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10761010" />
+    </children>
+  </item>
+  <item nodeId="node-0x10761010">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10761080" />
+    </children>
+  </item>
+  <item nodeId="node-0x10761080">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760320" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760320">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760390" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760390">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="503">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760400" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760400">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="502">YES</temporary>
+  </item>
+  <item nodeId="node-0x10760470">
+    <command xml:space="preserve">x ac</command>
+    <result xml:space="preserve">You tell yourself you have never seen an air conditioner this big.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="581">YES</temporary>
+    <children>
+      <child nodeId="node-0x107604e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107604e0">
+    <command xml:space="preserve">x ac</command>
+    <result xml:space="preserve">You tell yourself you have never seen an air conditioner this big.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="580">YES</temporary>
+  </item>
+  <item nodeId="node-0x1075fe70">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Creature Testing facility
+You&apos;re in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever&apos;s up ahead is probably gonna be something dangerous.
+
+The Military Lab&apos;s Center is back east. Another room seems to be at the next west turn.
+
+You can see a big amount of spiderwebs and a sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="590">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760110" />
+      <child nodeId="node-0x1075fee0" />
+      <child nodeId="node-0x1075e6e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075e6e0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="573">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075cf30" />
+      <child nodeId="node-0x1075bf90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075bf90">
+    <command xml:space="preserve">open suitcase</command>
+    <result xml:space="preserve">You open the suitcase, revealing a S Key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075c000" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c000">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075c070" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c070">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075b530" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075b530">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a W Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075b580" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075b580">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the S Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075b5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075b5d0">
+    <command xml:space="preserve">unlock s door</command>
+    <result xml:space="preserve">(with the S Key)
+You unlock the S Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075b640" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075b640">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the S Door)
+
+Nuclear Weapons Room
+Goodness. So many weapons. There&apos;s something on the table.
+
+The Center of the Military Lab is back north. Another room seems to be further below.
+
+You can see a S Door, an Uranium Rifle, an Uranium Grenade and a W Key here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075b6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075b6b0">
+    <command xml:space="preserve">take w key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075b720" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075b720">
+    <command xml:space="preserve">take rifle</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075b790" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075b790">
+    <command xml:space="preserve">take grenade</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075b800" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075b800">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a W Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075b870" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075b870">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the W Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075b8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075b8e0">
+    <command xml:space="preserve">unlock w door</command>
+    <result xml:space="preserve">What do you want to unlock the W Door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075b950" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075b950">
+    <command xml:space="preserve">w key</command>
+    <result xml:space="preserve">You unlock the W Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075b9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075b9c0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the W Door)
+
+Creature Testing facility
+You&apos;re in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever&apos;s up ahead is probably gonna be something dangerous.
+
+The Military Lab&apos;s Center is back east. Another room seems to be at the next west turn.
+
+You can see a W Door, a big amount of spiderwebs and a sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075ba30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075ba30">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+West Room
+This room is quite the room indeed. It has such a high ceiling with walls made of durable lead (imagine how heavy that is).
+
+The Creature Testing Facility is back north
+
+You can see Lead, a teleporter and KLAW here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075baa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075baa0">
+    <command xml:space="preserve">attack KLAW</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="459">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075bb10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075bb10">
+    <command xml:space="preserve">attack KLAW</command>
+    <result xml:space="preserve">You fire a bullet of Uranium at KLAW right in his stomach. He gets hurt and his mouth is open. You throw a grenade into the open mouth of KLAW. He chokes and explodes. The blue chemical is right there and you take it, as well as a key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="458">YES</temporary>
+  </item>
+  <item nodeId="node-0x1075cf30">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Nuclear Machinery
+You&apos;re in the Nuclear Machinery Room. You don&apos;t want to touch anything because everything looks so intimidating and so big. Even when you whisper the room echoes your voice.. There sure aren&apos;t any weapons around this room. The room is very big and filled with vehicles in a color that is quite unusual. It&apos;s also quite cold in here. You hear the sound of an air conditioner from far away but it&apos;s still quite loud.
+
+The Center of The Military lab is back west. Another room seems to be at the next east turn.
+
+You can see a SHARP Air Conditioner, Table (on which is a suitcase (closed)), an Alpha Tank and a Jeep here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="573">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075cf80" />
+      <child nodeId="node-0x1075c990" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c990">
+    <command xml:space="preserve">open suitcase</command>
+    <result xml:space="preserve">You open the suitcase, revealing a S Key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="538">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075ca00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075ca00">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="538">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075ca70" />
+      <child nodeId="node-0x1075c1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c1d0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">(first opening the E Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="538">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075c240" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c240">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="538">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075c2b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c2b0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Creature Testing facility
+You&apos;re in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever&apos;s up ahead is probably gonna be something dangerous.
+
+The Military Lab&apos;s Center is back east. Another room seems to be at the next west turn.
+
+You can see a big amount of spiderwebs and a sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="538">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075c320" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c320">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="538">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075c390" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c390">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="538">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075c400" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c400">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the S Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="538">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075c470" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c470">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the S Key)
+You unlock the S Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="538">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075be40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075be40">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the S Door)
+
+Nuclear Weapons Room
+Goodness. So many weapons. There&apos;s something on the table.
+
+The Center of the Military Lab is back north. Another room seems to be further below.
+
+You can see a S Door, an Uranium Rifle and an Uranium Grenade here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="538">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075beb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075beb0">
+    <command xml:space="preserve">take rifle</command>
+    <result xml:space="preserve">You take the Uranium Rifle. Better have the grenade too, just in case.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="538">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075bf20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075bf20">
+    <command xml:space="preserve">take grenade</command>
+    <result xml:space="preserve">You take the Uranium Grenade. Better have the rifle too, just in case.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="537">YES</temporary>
+  </item>
+  <item nodeId="node-0x1075ca70">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="501">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075cae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075cae0">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="501">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075cb50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075cb50">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the S Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="501">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075cbc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075cbc0">
+    <command xml:space="preserve">unlock s door</command>
+    <result xml:space="preserve">(with the S Key)
+You unlock the S Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="501">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075cc30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075cc30">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the S Door)
+
+Nuclear Weapons Room
+Goodness. So many weapons. There&apos;s something on the table.
+
+The Center of the Military Lab is back north. Another room seems to be further below.
+
+You can see a S Door, an Uranium Rifle and an Uranium Grenade here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="501">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075cca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075cca0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+South Room
+You&apos;re in the South Room. You feel radiation emitting from small Alpha Ray Guns in the distance. You can&apos;t reach them, but you can sense them. You wonder why there aren&apos;t really any things around there. Just two chests standing there.
+
+The Nuclear Weapons Room is back north.
+
+You can see a Left Chest (closed) and a Right Chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="501">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075c130" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c130">
+    <command xml:space="preserve">open left chest</command>
+    <result xml:space="preserve">You open the Left Chest, revealing a Green Chemical.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="501">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075c180" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c180">
+    <command xml:space="preserve">take green chemical</command>
+    <result xml:space="preserve">You take the Green Chemical and put it in your belt with the tray on it to store the chemicals.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="500">YES</temporary>
+  </item>
+  <item nodeId="node-0x1075cf80">
+    <command xml:space="preserve">open suicase</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="573">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075cfd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075cfd0">
+    <command xml:space="preserve">open suitcase</command>
+    <result xml:space="preserve">You open the suitcase, revealing a S Key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="573">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075d040" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075d040">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="573">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075d0b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075d0b0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+East Room
+You&apos;re in the the East Room. It&apos;s colder than usual in here. There&apos;s smoke coming from what looks to be a robot. Yeah. There is a big robot holding the yellow chemical, which is what the smoke is coming out of. The walls of the East Room are made of aluminum! Interesting.
+
+The Nuclear Machinery room is back west.
+
+You can see Robot 899 here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="573">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075d120" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075d120">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Nuclear Machinery
+You&apos;re in the Nuclear Machinery Room. You don&apos;t want to touch anything because everything looks so intimidating and so big. Even when you whisper the room echoes your voice.. There sure aren&apos;t any weapons around this room. The room is very big and filled with vehicles in a color that is quite unusual. It&apos;s also quite cold in here. You hear the sound of an air conditioner from far away but it&apos;s still quite loud.
+
+The Center of The Military lab is back west. Another room seems to be at the next east turn.
+
+You can see a SHARP Air Conditioner, Table (on which is a suitcase (empty)), an Alpha Tank and a Jeep here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="573">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075d190" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075d190">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="573">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075c840" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c840">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the S Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="573">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075c8b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c8b0">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the S Key)
+You unlock the S Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="573">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075c920" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075c920">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">(first opening the S Door)
+
+Nuclear Weapons Room
+Goodness. So many weapons. There&apos;s something on the table.
+
+The Center of the Military Lab is back north. Another room seems to be further below.
+
+You can see a S Door, an Uranium Rifle and an Uranium Grenade here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="572">YES</temporary>
+  </item>
+  <item nodeId="node-0x1075fee0">
+    <command xml:space="preserve">take sign</command>
+    <result xml:space="preserve">You take the small sign. At least you have a souvenir now!
+
+[Your score has just gone up by three points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="544">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075ff50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075ff50">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="544">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075ffc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075ffc0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Creature Testing facility
+You&apos;re in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever&apos;s up ahead is probably gonna be something dangerous.
+
+The Military Lab&apos;s Center is back east. Another room seems to be at the next west turn.
+
+You can see a big amount of spiderwebs and a sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="544">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760030" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760030">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+West Room
+This room is quite the room indeed. It has such a high ceiling with walls made of durable lead (imagine how heavy that is).
+
+The Creature Testing Facility is back north
+
+You can see Lead, a teleporter and KLAW here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="544">YES</temporary>
+    <children>
+      <child nodeId="node-0x107600a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107600a0">
+    <command xml:space="preserve">attack KLAW</command>
+    <result xml:space="preserve">You attempt to charge at KLAW and the creature takes notice at you. Being aggressive as he is, KLAW raises his claw and stabs you straight through your stomach. Shoot.
+
+
+
+    *** You have died ***
+
+
+In that game you scored 3 out of a possible 0, in 6 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="543">YES</temporary>
+  </item>
+  <item nodeId="node-0x10760110">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+West Room
+This room is quite the room indeed. It has such a high ceiling with walls made of durable lead (imagine how heavy that is).
+
+The Creature Testing Facility is back east.
+
+You can see Lead, a teleporter and KRAM here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="590">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760180" />
+      <child nodeId="node-0x1075e520" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075e520">
+    <command xml:space="preserve">attack KLAW</command>
+    <result xml:space="preserve">You attempt to charge at KLAW and the creature takes notice at you. Being aggressive as he is, KLAW raises his claw and stabs you straight through your stomach. Shoot.
+
+
+
+    *** You have died ***
+
+
+In that game you scored 0 out of a possible 0, in 3 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="485">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075e590" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075e590">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="467">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075e600" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075e600">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="467">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075e670" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075e670">
+    <command xml:space="preserve">restart</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="466">YES</temporary>
+  </item>
+  <item nodeId="node-0x10760180">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Creature Testing facility
+You&apos;re in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever&apos;s up ahead is probably gonna be something dangerous.
+
+The Military Lab&apos;s Center is back east. Another room seems to be at the next west turn.
+
+You can see a big amount of spiderwebs and a sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="590">YES</temporary>
+    <children>
+      <child nodeId="node-0x107601f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107601f0">
+    <command xml:space="preserve">floor</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="590">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075f830" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075f830">
+    <command xml:space="preserve">x floor</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="590">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075f8a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075f8a0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="590">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075f910" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075f910">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Nuclear Machinery
+You&apos;re in the Nuclear Machinery Room. You don&apos;t want to touch anything because everything looks so intimidating and so big. Even when you whisper the room echoes your voice.. There sure aren&apos;t any weapons around this room. The room is very big and filled with vehicles in a color that is quite unusual. It&apos;s also quite cold in here. You hear the sound of an air conditioner from far away but it&apos;s still quite loud.
+
+The Center of The Military lab is back west. Another room seems to be at the next east turn.
+
+You can see a SHARP Air Conditioner, Table (on which is a suitcase (closed)), an Alpha Tank and a Jeep here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="590">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075f980" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075f980">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+East Room
+You&apos;re in the the East Room. It&apos;s colder than usual in here. There&apos;s smoke coming from what looks to be a robot. Yeah. There is a big robot holding the yellow chemical, which is what the smoke is coming out of. The walls of the East Room are made of aluminum! Interesting.
+
+The Nuclear Machinery room is back west.
+
+You can see Robot 899 here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="590">YES</temporary>
+    <children>
+      <child nodeId="node-0x1075f9f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1075f9f0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="589">YES</temporary>
+  </item>
+  <item nodeId="node-0x10760550">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Nuclear Machinery
+You&apos;re in the Nuclear Machinery Room. You don&apos;t want to touch anything because everything looks so intimidating and so big. Even when you whisper the room echoes your voice.. There sure aren&apos;t any weapons around this room. The room is very big and filled with vehicles in a color that is quite unusual. It&apos;s also quite cold in here. You hear the sound of an air conditioner from far away but it&apos;s still quite loud.
+
+The Center of The Military lab is back west. Another room seems to be at the next east turn.
+
+You can see a SHARP Air Conditioner, Table (on which is a suitcase (closed)), an Alpha Tank and a Jeep here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="594">YES</temporary>
+    <children>
+      <child nodeId="node-0x107605c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107605c0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Center of The Military Lab
+You&apos;re in the center of the Military Lab. It&apos;s quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here.  Where should you go now?
+
+You may go in all four directions: N, S, W, and E.
+
+You can see a S Door, a Titanium Box (closed), a beaker, a Green Light and a blood here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="594">YES</temporary>
+    <children>
+      <child nodeId="node-0x10760630" />
+    </children>
+  </item>
+  <item nodeId="node-0x10760630">
+    <command xml:space="preserve">est</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="594">YES</temporary>
+    <children>
+      <child nodeId="node-0x107606a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x107606a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Creature Testing facility
+You&apos;re in the Creature Testing Facility. You only know that because the floor is labeled CREATURE TESTING FACILITY. But somehow this place is generally empty. There&apos;s really nothing else rather than that the walls are made of spiderwebs (3x stronger than steel) Whatever&apos;s up ahead is probably gonna be something dangerous.
+
+The Military Lab&apos;s Center is back east. Another room seems to be at the next west turn.
+
+You can see a big amount of spiderwebs and a sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="593">YES</temporary>
+  </item>
+  <item nodeId="node-0x1071e230">
+    <command xml:space="preserve">x blood</command>
+    <result xml:space="preserve">There&apos;s some blood stains along the floor, but nothing like a murder scene. The blood might have been yours?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="598">YES</temporary>
+    <children>
+      <child nodeId="node-0xb87f930" />
+    </children>
+  </item>
+  <item nodeId="node-0xb87f930">
+    <command xml:space="preserve">take blood</command>
+    <result xml:space="preserve">You can&apos;t take that. And blood is disgusting. So why?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="598">YES</temporary>
+    <children>
+      <child nodeId="node-0x1817e60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1817e60">
+    <command xml:space="preserve">take small amount of blood</command>
+    <result xml:space="preserve">You can&apos;t take that. And blood is disgusting. So why?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="597">YES</temporary>
+  </item>
+  <item nodeId="node-0x10760710">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="487">YES</temporary>
+  </item>
+  <item nodeId="node-0x1073b780">
+    <command xml:space="preserve">take beaker</command>
+    <result xml:space="preserve">This will be important to pass the game and so you take it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="594">YES</temporary>
+  </item>
+</Skein>
