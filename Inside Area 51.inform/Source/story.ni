@@ -13,7 +13,7 @@ When play begins: say "You wake up in the base of a military lab. Can't believe 
 The Description of the player is "You're a normal tan-skinned person (5'10, 180 lbs), wearing clothes that you don't feel like you normally wear. They must have given you them. The pockets on these are rather large. Maybe you could store a lot of things inside. There's a huge cut in your arm."
 
 	
-[disabling the take all command] [I only wrote the content after say.]
+[disabling the take all command] [I only wrote the content after say. I got this code from Jordan]
 
 Rule for deciding whether all includes something:
 	stop. 
@@ -33,7 +33,7 @@ North Room is a room. It is north of the N Door. "You've reached the north room.
 
 The Glassware Room is back south."
 
-East Room is a room. It is east of the Nuclear Machinery. "You're in the the East Room. It's colder than usual in here. There's smoke coming from what looks to be a robot. Yeah. There is a big robot holding the yellow chemical, which is what the smoke is coming out of. The walls of the East Room are made of aluminum! Interesting. 
+East Room is a room. It is east of the Nuclear Machinery. "You're in the the East Room. It's colder than usual in here. There's smoke coming from what looks to be a robot. Yeah. There is a big robot holding the yellow chemical, which is what the smoke is coming out of. The walls of the East Room are made of alluminum! Interesting. 
 
 The Nuclear Machinery room is back west."
 
@@ -62,7 +62,7 @@ Glassware Room is a room. It is north of the Center of The Military Lab. "This r
 The Center of The Military Lab is back south. Another room seems to be up ahead."
 
 [things in rooms, and After rules]
-
+[other items were added for decor. Some grant points by examining.]
 
 The Big Safe is a closed openable container in the North Room. It is locked and lockable. The description is "This is one big black safe. There is a lock on it."
 
@@ -74,7 +74,6 @@ After examining the Ammo Box for the first time:
 	say "Looks like a really interesting ammo box. You touch it and the ammo box glows with a slight glow. Not very big. Area 51's got some trippy science."
 	
 Lead is in West Room. The description is "You press the walls and it feels soft. You press the walls and it feels soft. Yeah, this is definitely lead."
-
 
 The Ammo Box is an enterable supporter. It is in the North Room. The description is "A box of ammo. Seems to hold rockets."
 
@@ -95,13 +94,19 @@ The big amount of spiderwebs is in the Creature Testing Facility. The descriptio
 
 The Titanium Box is a closed openable container in the Center of The Military Lab. It is locked and lockable. The description of the Titanium Box is "A Titanium Box the size of two size 11 shoeboxes stacked on top of each other. You have a gut feeling that whatever is inside is going to help you get out of the lab. Go further in the game to unlock it."
 
-The Set of Aluminum Walls is an enterable supporter in East Room. The description is "The walls of the East Room are aluminum encasted. Looks like that one movie where the walls were covered in aluminum foil."
+The Set of Alluminum Walls is an enterable supporter in East Room. The description is "The walls of the East Room are alluminum encasted. Looks like that one movie where the walls were covered in alluminum foil."
+
+The smoke is scenery in East Room. The description is "Some smoke. Looks white, like clouds."
+
+The Alpha Ray Guns is scenery in South Room. The description is "Some ray guns are viewable in the distance. Cool."
+
+The color is scenery in Nuclear Machinery. The description is "It's a rainbowish color. Looks cool."
 
 The beaker is a thing in Center of The Military Lab. The description is "a 500mL beaker. Keep it with you."
 
 The teleporter is a thing in West Room. The description is "A teleporter. You know it's a teleporter because of how it looks: with a giant platform in the middle. There's a fingerprint scanner on it and near it it's labeled HUMANS ONLY. You'd better restore your fingerprints to get out of this place and pass the game."
 
-The SHARP Air Conditioner is in the Nuclear Machinery. It is an enterable supporter. The description is "You tell yourself you have never seen an air conditioner this big."
+The SHARP Air Conditioner is scenery in the Nuclear Machinery. It is an enterable supporter. The description is "You tell yourself you have never seen an air conditioner this big, although it is in unreachable distance."
 
 After examining the SHARP Air Conditioner for the first time:
 	increase the score by 1;
@@ -126,6 +131,12 @@ The suitcase is a closed openable container. It is on Table. The description is
 The Uranium Grenade is a thing in Nuclear Weapons room. The description is "It looks like a regular grenade, labeled LOADED WITH URANIUM. BE CAREFUL."
 
 The sign is a thing in the Creature Testing Facility. The description is "Dangerous creature(s) west. Use Caution."
+
+The floor is scenery in the Center of The Military Lab. The description is "What nice floors, only to be stained by some stains of blood."
+
+The ceiling is scenery in the West Room. The description is "That's such a high ceiling. Craziness."
+
+The Lead Walls is scenery in the East Room. The description is "Lead walls. Ooh."
 
 The Injection Syringe is a container in Titanium Box. The description is "A syringe used for injections. It's the size of a hot glue gun. How convenient! There is a little passage encasted on the tube that says IN CASE OF GENETIC PROBLEMS WITHIN YOUR BODY, COMBINE TWO SUBSTANCES AT A TIME. ONCE DONE, APPLY INTO SYRINGE. BEING HUMAN, YOU MUST KNOW WHAT TO DO."
 
@@ -227,7 +238,6 @@ Instead of entering robot 899:
 Instead of taking yellow chemical:
 	If player is not carrying the yellow chemical,
 	say "Robot 899 holds the tube containing the yellow chemical with strong force. You try to grab it. The Robot does not budge."
-	
 	
 [things to help inform understand things] 
 
@@ -360,6 +370,8 @@ Instead of Combining Red Chemical with Green Chemical:
 Instead of Combining Red Chemical with Yellow Chemical:
 	say "Your conscience says that's the wrong chemical to mix it with."
 	
+[I thought of every combination and made a response to it because a weird message would pop up when I mixed the chemical with the wrong one.]
+	
 Instead of combining Yellow Chemical with Green Chemical:
 	remove Yellow Chemical from play; 
 	remove Green Chemical from play;
@@ -401,7 +413,7 @@ Instead of entering teleporter:
 	say "You put your fingerprints into the teleporter's finger scanner and the teleporter identifies you as a human. You go into the teleporter and you're taken outside to the NO TRESSPASSING OR GET SHOT sign. Victory!";
 	
 Instead of taking Blue Chemical:
-	say "You have the Blue Chemical. Now to find the other Chemicals. Mix it with the Red Chemical.";
+	say "You have the Blue Chemical. Now to find the other Chemicals.";
 
 Instead of entering KRAM:
 	say "He is way too deadly for you to do some foolish thing like that."
