@@ -8,7 +8,18 @@ The maximum score is 13.
 
 When play begins: say "You wake up in the base of a military lab. Can't believe you're alive, huh? From a sign outside you realize you're in Area 51. You feel as if 4 small parts of your body has been extracted right out of you but you don't know what's happened. You don't know what's going on. But what you do know from science is that you need to replemish what you've lost and get the hell out of this base using chemicals because something about you is strange. Yeah, your fingerprints don't even look right. The sign outside Area 51 was already intimidating. Now you're in the base of the operation. The military will do anything to kill you. It seems that everybody's out and the security cameras are off… for now. No time to poop your pants. Get out of here. But, be VERY careful."
 
+[player description]
+
 The Description of the player is "You're a normal tan-skinned person (5'10, 180 lbs), wearing clothes that you don't feel like you normally wear. They must have given you them. The pockets on these are rather large. Maybe you could store a lot of things inside. There's a huge cut in your arm."
+
+	
+[disabling the take all command] [I only wrote the content after say.]
+
+Rule for deciding whether all includes something:
+	stop. 
+	
+Rule for printing a parser error when the latest parser error is the nothing to do error:
+	say "You're not an octopus. How are you gonna take all these items at once?" instead.
 
 [first room]
 The Center of The Military Lab is a room. "You're in the center of the Military Lab. It's quite the large room. 50 meters by 50 meters, maybe? How trippy. You wonder what went on here, considering a small amount of blood on the floor.  Where to go, chief?
@@ -86,7 +97,7 @@ The Titanium Box is a closed openable container in the Center of The Military La
 
 The Set of Aluminum Walls is an enterable supporter in East Room. The description is "The walls of the East Room are aluminum encasted. Looks like that one movie where the walls were covered in aluminum foil."
 
-The beaker is a thing in Center of The Military Lab. The description is "a 500mL beaker. Take it."
+The beaker is a thing in Center of The Military Lab. The description is "a 500mL beaker. Keep it with you."
 
 The teleporter is a thing in West Room. The description is "A teleporter. You know it's a teleporter because of how it looks: with a giant platform in the middle. There's a fingerprint scanner on it and near it it's labeled HUMANS ONLY. You'd better restore your fingerprints to get out of this place and pass the game."
 
@@ -218,7 +229,7 @@ Instead of taking yellow chemical:
 	say "Robot 899 holds the tube containing the yellow chemical with strong force. You try to grab it. The Robot does not budge."
 	
 	
-[things to help inform understand things]
+[things to help inform understand things] 
 
 Talking to is an action applying to one visible thing. Understand "talk to [someone]" or "converse with [someone]" as talking to.
 
@@ -447,15 +458,6 @@ The N Key unlocks the N door. The description of The N Key is "A key labeled N. 
 The S Key unlocks the S Door. The S Key is inside suitcase. The description of the S Key is "A basic silver key. It's labeled S."
 
 The T Key is a thing. It unlocks the Titanium Box. The description is "A key made of titanium. It feels like a very durable metal key."
-
-	
-[disabling the take all command]
-
-Rule for deciding whether all includes something:
-	stop.
-	
-Rule for printing a parser error when the latest parser error is the nothing to do error:
-	say "You're not an octopus. How are you gonna take all these items at once?" instead.
 
 
 [every turn rules]	
